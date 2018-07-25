@@ -15,16 +15,34 @@ We use the following audio-visual equipment to record each OPLSS session:
   * a set of rechargeable AA and AAA batteries, plus a charger
   * power strip (to charge batteries)
   * laser pointer
+  * common HDMI video adapters
+	* USB-C
+    * Apple Thunderbolt
 
 ## Camera configuration
 
-The camera 
+The camera should support all of the following configuration variables:
+
+  * zoom
+  * auto and manual focus
+  * white balance
+  * exposure compensation
+  * video file format: MPEG-4, MOV, etc.
 
 If the camera records in MPEG-4 format, it _may_ stop recording after 30
 minutes. As such, each session will consume at least two and usually three files.
 
+## A/V Manager and Assistant
+
+Jim should designate a primary audio-visual manager and an
+assistant. The primary manager will be responsible for all aspects of
+operating and maintaining the A/V equipment. The assistant should be
+familiar with this document in order to record a session if the
+primary is unavailable.
+
 ## Camera Operation Best Practices
 
+This section summarizes best practices for operating the camera.
 
 ### Pre-OPLSS rehearsal
 
@@ -48,6 +66,8 @@ You should do all of the following during the rehearsal session:
     unexpected circumstances. Practice unplugging the microphone,
     recording with the camera's built-in mic, and reconnecting the 
   * Monitor the recording with headphones
+  * Test cycling the room's A/V controls. Connect a laptop to the
+    projector.
 
 ### Recording each session
 
@@ -108,12 +128,43 @@ Jim before recording the next day.
 
 ### Publishing to YouTube
 
-We combined the raw video files 
+Publishing the videos to YouTube is a complicated process involving
+multiple software components and a considerable amount of manual effort.
 
 #### Creating title graphics
 
-I used GIMP to create title
+The A/V manager should create title graphics to accompany the session
+videos.  We refer to them here as "title cards" or "cards." We created
+one set of cards that appear in every video, along with a set unique
+to each session.
 
-#### Generating 
+The common cards are:
 
-I used `ffmpeg` to process the raw video files for YouTube.
+  * main title
+  * sponsors
+  * copyright notice
+
+The session cards state the topic, the speaker, the speaker's
+affiliation, and the date.
+
+In 2018, the A/V manager used GIMP to create the cards.
+
+#### Generating the final videos
+
+I used [`ffmpeg`](https://ffmpeg.org/) to combine the raw video files
+and title graphics for each session into a single file suitable for
+uploading to YouTube.
+
+The elements appear in this sequence. The parenthesized number is the
+element's length:
+
+  * main card (6s)
+  * sponsor card (6s)
+  * session card (6s)
+  * session videos (~90m)
+  * copyright card (6s)
+
+
+
+#### Uploading to YouTube
+
