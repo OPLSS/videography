@@ -32,10 +32,10 @@ The camera should support all of the following configuration variables:
 If the camera records in MPEG-4 format, it _may_ stop recording after 30
 minutes. As such, each session will consume at least two and usually three files.
 
-## A/V Manager and Assistant
+## A/V lead and Assistant
 
-Jim should designate a primary audio-visual manager and an
-assistant. The primary manager will be responsible for all aspects of
+Jim should designate a primary audio-visual lead and an
+assistant. The primary lead will be responsible for all aspects of
 operating and maintaining the A/V equipment. The assistant should be
 familiar with this document in order to record a session if the
 primary is unavailable.
@@ -90,7 +90,7 @@ session, offer the following advice:
   * Place the transmitter in a pocket or suspend from the belt clip
   * Please repeat questions asked by the audience
 
-If the camera stops recording after 30 minutes, the A/V manager will
+If the camera stops recording after 30 minutes, the A/V lead will
 need to restart recording after it stops. I found it less stressful to
 stop and start the recording by waiting for the speaker to pause. Do
 this any time after the timer reaches 28 minutes.
@@ -106,10 +106,12 @@ not* stop the speaker: instead, address the issue after the session.
 
 ### Storing the A/V equipment
 
-We store the the A/V equipment in a secure location when the A/V
-manager is not present.  In 2018 at the Knight Law building, we stored
-the equipment in locked equipment closets connected to the
-classrooms. Jim was responsible for managing the key. As such, 
+We store the the A/V equipment in a secure location when the A/V lead
+is not present.  In 2018 at the Knight Law building, we stored the
+equipment in locked equipment closets connected to the classrooms. Jim
+was responsible for managing the key. If this is the case in future
+years, the lead should acquire the key from Jim as early as possible
+before a session to retrieve the equipment.
 
 ## Video Publishing Procedures
 
@@ -121,9 +123,9 @@ We publish the videos to two locations:
 ### Publishing to the OPLSS site
 
 Jim is the only person with credentials on the university's OPLSS
-site. He does this every evening. The A/V manager should remove the
+site. He does this every evening. The A/V lead should remove the
 data card from the camera and give it to Jim at the conclusion of each
-day's sessions. Likewise, the manager should retrieve the card from
+day's sessions. Likewise, the lead should retrieve the card from
 Jim before recording the next day.
 
 ### Publishing to YouTube
@@ -133,7 +135,7 @@ multiple software components and a considerable amount of manual effort.
 
 #### Creating title graphics
 
-The A/V manager should create title graphics to accompany the session
+The A/V lead should create title graphics to accompany the session
 videos.  We refer to them here as "title cards" or "cards." We created
 one set of cards that appear in every video, along with a set unique
 to each session.
@@ -147,7 +149,73 @@ The common cards are:
 The session cards state the topic, the speaker, the speaker's
 affiliation, and the date.
 
-In 2018, the A/V manager used GIMP to create the cards.
+In 2018, the A/V lead used GIMP to create the cards.
+
+The OPLSS font is named [_PT Mono Bold_](https://www.1001fonts.com/pt-mono-font.html#character-map-bold), where "PT" is a reference to
+"ParaType", the font's creator.
+
+2018 session schedule:
+
+| *Session Count* | *Day* | *Session* | *Date*           | *Speaker* | *Topic* |
+| 1               | 1     | 1         | Tue., 2018-07-03 | Downen    |         |
+| 2               | 1     | 2         | Tue., 2018-07-03 | Hoffmann  |         |
+| 3               | 1     | 3         | Tue., 2018-07-03 | Hoffmann  |         |
+| 4               | 1     | 4         | Tue., 2018-07-03 | Downen    |         |
+| 5               | 2     | 1         | Thu., 2018-07-05 | Hoffmann  |         |
+| 6               | 2     | 2         | Thu., 2018-07-05 | Downen    |         |
+| 7               | 2     | 3         | Thu., 2018-07-05 | Hoffmann  |         |
+| 8               | 3     | 1         | Fri., 2018-07-06 | Hoffmann  |         |
+| 9               | 3     | 2         | Fri., 2018-07-06 | Hoffmann  |         |
+| 10              | 3     | 3         | Fri., 2018-07-06 | Downen    |         |
+| 11              | 3     | 4         | Fri., 2018-07-06 | Downen    |         |
+| 12              | 3     | 5         | Fri., 2018-07-06 | Hoffmann  |         |
+| 13              | 4     | 1         | Sat., 2018-07-07 | Downen    |         |
+| 14              | 4     | 2         | Sat., 2018-07-07 | Downen    |         |
+| 15              | 4     | 3         | Sat., 2018-07-07 | Downen    |         |
+| 16              | 5     | 1         | Sun., 2018-07-08 | Downen    |         |
+| 17              | 5     | 2         | Sun., 2018-07-08 | Downen    |         |
+| 18              | 5     | 3         | Sun., 2018-07-08 | Downen    |         |
+| 19              | 6     | 1         | Mon., 2018-07-09 | Acar      |         |
+| 20              | 6     | 2         | Mon., 2018-07-09 | Blelloch  |         |
+| 21              | 6     | 3         | Mon., 2018-07-09 | Saraswat  |         |
+| 22              | 7     | 1         | Tue., 2018-07-10 | Acar      |         |
+| 23              | 7     | 2         | Tue., 2018-07-10 | Blelloch  |         |
+| 24              | 7     | 3         | Tue., 2018-07-10 | Saraswat  |         |
+| 25              | 8     | 1         | Wed., 2018-07-11 | Acar      |         |
+| 26              | 8     | 2         | Wed., 2018-07-11 | Blelloch  |         |
+| 27              | 8     | 3         | Wed., 2018-07-11 | Saraswat  |         |
+| 28              | 8     | 4         | Wed., 2018-07-11 | Turon     |         |
+| 29              | 9     | 1         | Thu., 2018-07-12 | Acar      |         |
+| 30              | 9     | 2         | Thu., 2018-07-12 | Acar      |         |
+| 31              | 9     | 3         | Thu., 2018-07-12 | Keller    |         |
+| 32              | 10    | 1         | Fri., 2018-07-13 | Blelloch  |         |
+| 33              | 10    | 2         | Fri., 2018-07-13 | Blelloch  |         |
+| 34              | 10    | 3         | Fri., 2018-07-13 | Keller    |         |
+| 35              | 11    | 1         | Sat., 2018-07-14 | Keller    |         |
+| 36              | 11    | 2         | Sat., 2018-07-14 | Pingali   |         |
+| 37              | 11    | 3         | Sat., 2018-07-14 | Arvind    |         |
+| 38              | 11    | 4         | Sat., 2018-07-14 | Duff      |         |
+| 39              | 12    | 1         | Mon., 2018-07-16 | Harper    |         |
+| 40              | 12    | 2         | Mon., 2018-07-16 | Pingali   |         |
+| 41              | 12    | 3         | Mon., 2018-07-16 | Arvind    |         |
+| 42              | 13    | 1         | Tue., 2018-07-17 | Harper    |         |
+| 43              | 13    | 2         | Tue., 2018-07-17 | Pingali   |         |
+| 44              | 13    | 3         | Tue., 2018-07-17 | Arvind    |         |
+| 45              | 14    | 1         | Wed., 2018-07-18 | Harper    |         |
+| 46              | 14    | 2         | Wed., 2018-07-18 | Balzer    |         |
+| 47              | 14    | 3         | Wed., 2018-07-18 | Ghica     |         |
+| 48              | 14    | 4         | Wed., 2018-07-18 | Bauer     |         |
+| 49              | 15    | 1         | Thu., 2018-07-19 | Harper    |         |
+| 50              | 15    | 2         | Thu., 2018-07-19 | Bauer     |         |
+| 51              | 15    | 3         | Thu., 2018-07-19 | Balzer    |         |
+| 52              | 15    | 4         | Thu., 2018-07-19 | Ghica     |         |
+| 53              | 16    | 1         | Fri., 2018-07-20 | Ghica     |         |
+| 54              | 16    | 2         | Fri., 2018-07-20 | Balzer    |         |
+| 55              | 16    | 3         | Fri., 2018-07-20 | Bauer     |         |
+| 56              | 17    | 1         | Sat., 2018-07-21 | Ghica     |         |
+| 57              | 17    | 2         | Sat., 2018-07-21 | Bauer     |         |
+| 58              | 17    | 3         | Sat., 2018-07-21 | Balzer    |         |
+| 59              | 17    | 4         | Sat., 2018-07-21 | Harper    |         |
 
 #### Generating the final videos
 
