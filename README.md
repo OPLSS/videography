@@ -156,83 +156,83 @@ The OPLSS font is named [_PT Mono Bold_](https://www.1001fonts.com/pt-mono-font.
 
 2018 session schedule:
 
-| *Session Count* | *Day* | *Session* | *Date*           | *Speaker* | *Topic* |
-| 1               | 1     | 1         | Tue., 2018-07-03 | Downen    |         |
-| 2               | 1     | 2         | Tue., 2018-07-03 | Hoffmann  |         |
-| 3               | 1     | 3         | Tue., 2018-07-03 | Hoffmann  |         |
-| 4               | 1     | 4         | Tue., 2018-07-03 | Downen    |         |
-| 5               | 2     | 1         | Thu., 2018-07-05 | Hoffmann  |         |
-| 6               | 2     | 2         | Thu., 2018-07-05 | Downen    |         |
-| 7               | 2     | 3         | Thu., 2018-07-05 | Hoffmann  |         |
-| 8               | 3     | 1         | Fri., 2018-07-06 | Hoffmann  |         |
-| 9               | 3     | 2         | Fri., 2018-07-06 | Hoffmann  |         |
-| 10              | 3     | 3         | Fri., 2018-07-06 | Downen    |         |
-| 11              | 3     | 4         | Fri., 2018-07-06 | Downen    |         |
-| 12              | 3     | 5         | Fri., 2018-07-06 | Hoffmann  |         |
-| 13              | 4     | 1         | Sat., 2018-07-07 | Downen    |         |
-| 14              | 4     | 2         | Sat., 2018-07-07 | Downen    |         |
-| 15              | 4     | 3         | Sat., 2018-07-07 | Downen    |         |
-| 16              | 5     | 1         | Sun., 2018-07-08 | Downen    |         |
-| 17              | 5     | 2         | Sun., 2018-07-08 | Downen    |         |
-| 18              | 5     | 3         | Sun., 2018-07-08 | Downen    |         |
-| 19              | 6     | 1         | Mon., 2018-07-09 | Acar      |         |
-| 20              | 6     | 2         | Mon., 2018-07-09 | Blelloch  |         |
-| 21              | 6     | 3         | Mon., 2018-07-09 | Saraswat  |         |
-| 22              | 7     | 1         | Tue., 2018-07-10 | Acar      |         |
-| 23              | 7     | 2         | Tue., 2018-07-10 | Blelloch  |         |
-| 24              | 7     | 3         | Tue., 2018-07-10 | Saraswat  |         |
-| 25              | 8     | 1         | Wed., 2018-07-11 | Acar      |         |
-| 26              | 8     | 2         | Wed., 2018-07-11 | Blelloch  |         |
-| 27              | 8     | 3         | Wed., 2018-07-11 | Saraswat  |         |
-| 28              | 8     | 4         | Wed., 2018-07-11 | Turon     |         |
-| 29              | 9     | 1         | Thu., 2018-07-12 | Acar      |         |
-| 30              | 9     | 2         | Thu., 2018-07-12 | Acar      |         |
-| 31              | 9     | 3         | Thu., 2018-07-12 | Keller    |         |
-| 32              | 10    | 1         | Fri., 2018-07-13 | Blelloch  |         |
-| 33              | 10    | 2         | Fri., 2018-07-13 | Blelloch  |         |
-| 34              | 10    | 3         | Fri., 2018-07-13 | Keller    |         |
-| 35              | 11    | 1         | Sat., 2018-07-14 | Keller    |         |
-| 36              | 11    | 2         | Sat., 2018-07-14 | Pingali   |         |
-| 37              | 11    | 3         | Sat., 2018-07-14 | Arvind    |         |
-| 38              | 11    | 4         | Sat., 2018-07-14 | Duff      |         |
-| 39              | 12    | 1         | Mon., 2018-07-16 | Harper    |         |
-| 40              | 12    | 2         | Mon., 2018-07-16 | Pingali   |         |
-| 41              | 12    | 3         | Mon., 2018-07-16 | Arvind    |         |
-| 42              | 13    | 1         | Tue., 2018-07-17 | Harper    |         |
-| 43              | 13    | 2         | Tue., 2018-07-17 | Pingali   |         |
-| 44              | 13    | 3         | Tue., 2018-07-17 | Arvind    |         |
-| 45              | 14    | 1         | Wed., 2018-07-18 | Harper    |         |
-| 46              | 14    | 2         | Wed., 2018-07-18 | Balzer    |         |
-| 47              | 14    | 3         | Wed., 2018-07-18 | Ghica     |         |
-| 48              | 14    | 4         | Wed., 2018-07-18 | Bauer     |         |
-| 49              | 15    | 1         | Thu., 2018-07-19 | Harper    |         |
-| 50              | 15    | 2         | Thu., 2018-07-19 | Bauer     |         |
-| 51              | 15    | 3         | Thu., 2018-07-19 | Balzer    |         |
-| 52              | 15    | 4         | Thu., 2018-07-19 | Ghica     |         |
-| 53              | 16    | 1         | Fri., 2018-07-20 | Ghica     |         |
-| 54              | 16    | 2         | Fri., 2018-07-20 | Balzer    |         |
-| 55              | 16    | 3         | Fri., 2018-07-20 | Bauer     |         |
-| 56              | 17    | 1         | Sat., 2018-07-21 | Ghica     |         |
-| 57              | 17    | 2         | Sat., 2018-07-21 | Bauer     |         |
-| 58              | 17    | 3         | Sat., 2018-07-21 | Balzer    |         |
-| 59              | 17    | 4         | Sat., 2018-07-21 | Harper    |         |
+| *Session Count* | *Day* | *Session* | *Date*           | *Speaker* | *Topic*                                                   |
+| 1               | 1     | 1         | Tue., 2018-07-03 | Downen    |                                                           |
+| 2               | 1     | 2         | Tue., 2018-07-03 | Hoffmann  |                                                           |
+| 3               | 1     | 3         | Tue., 2018-07-03 | Hoffmann  |                                                           |
+| 4               | 1     | 4         | Tue., 2018-07-03 | Downen    |                                                           |
+| 5               | 2     | 1         | Thu., 2018-07-05 | Hoffmann  |                                                           |
+| 6               | 2     | 2         | Thu., 2018-07-05 | Downen    |                                                           |
+| 7               | 2     | 3         | Thu., 2018-07-05 | Hoffmann  |                                                           |
+| 8               | 3     | 1         | Fri., 2018-07-06 | Hoffmann  |                                                           |
+| 9               | 3     | 2         | Fri., 2018-07-06 | Hoffmann  |                                                           |
+| 10              | 3     | 3         | Fri., 2018-07-06 | Downen    |                                                           |
+| 11              | 3     | 4         | Fri., 2018-07-06 | Downen    |                                                           |
+| 12              | 3     | 5         | Fri., 2018-07-06 | Hoffmann  |                                                           |
+| 13              | 4     | 1         | Sat., 2018-07-07 | Downen    |                                                           |
+| 14              | 4     | 2         | Sat., 2018-07-07 | Downen    |                                                           |
+| 15              | 4     | 3         | Sat., 2018-07-07 | Downen    |                                                           |
+| 16              | 5     | 1         | Sun., 2018-07-08 | Downen    | Reducibility - Simply-Typed Lambda Calculus               |
+| 17              | 5     | 2         | Sun., 2018-07-08 | Downen    | Reducibility Candidates - System F                        |
+| 18              | 6     | 1         | Mon., 2018-07-09 | Acar      |                                                           |
+| 19              | 6     | 2         | Mon., 2018-07-09 | Blelloch  | Parallel Cost Semantics and Bounded Implementations [1/5] |
+| 20              | 6     | 3         | Mon., 2018-07-09 | Saraswat  |                                                           |
+| 21              | 7     | 1         | Tue., 2018-07-10 | Acar      |                                                           |
+| 22              | 7     | 2         | Tue., 2018-07-10 | Blelloch  | Parallel Cost Semantics and Bounded Implementations [2/5] |
+| 23              | 7     | 3         | Tue., 2018-07-10 | Saraswat  |                                                           |
+| 24              | 8     | 1         | Wed., 2018-07-11 | Acar      |                                                           |
+| 25              | 8     | 2         | Wed., 2018-07-11 | Blelloch  | Parallel Cost Semantics and Bounded Implementations [3/5] |
+| 26              | 8     | 3         | Wed., 2018-07-11 | Saraswat  |                                                           |
+| 27              | 8     | 4         | Wed., 2018-07-11 | Turon     |                                                           |
+| 28              | 9     | 1         | Thu., 2018-07-12 | Acar      |                                                           |
+| 29              | 9     | 2         | Thu., 2018-07-12 | Acar      |                                                           |
+| 30              | 9     | 3         | Thu., 2018-07-12 | Keller    |                                                           |
+| 31              | 10    | 1         | Fri., 2018-07-13 | Blelloch  | Parallel Cost Semantics and Bounded Implementations [4/5] |
+| 32              | 10    | 2         | Fri., 2018-07-13 | Blelloch  | Parallel Cost Semantics and Bounded Implementations [5/5] |
+| 33              | 10    | 3         | Fri., 2018-07-13 | Keller    |                                                           |
+| 34              | 11    | 1         | Sat., 2018-07-14 | Keller    |                                                           |
+| 35              | 11    | 2         | Sat., 2018-07-14 | Pingali   |                                                           |
+| 36              | 11    | 3         | Sat., 2018-07-14 | Arvind    |                                                           |
+| 37              | 11    | 4         | Sat., 2018-07-14 | Duff      |                                                           |
+| 38              | 12    | 1         | Mon., 2018-07-16 | Harper    |                                                           |
+| 39              | 12    | 2         | Mon., 2018-07-16 | Pingali   |                                                           |
+| 40              | 12    | 3         | Mon., 2018-07-16 | Arvind    |                                                           |
+| 41              | 13    | 1         | Tue., 2018-07-17 | Harper    |                                                           |
+| 42              | 13    | 2         | Tue., 2018-07-17 | Pingali   |                                                           |
+| 43              | 13    | 3         | Tue., 2018-07-17 | Arvind    |                                                           |
+| 44              | 14    | 1         | Wed., 2018-07-18 | Harper    |                                                           |
+| 45              | 14    | 2         | Wed., 2018-07-18 | Balzer    |                                                           |
+| 46              | 14    | 3         | Wed., 2018-07-18 | Ghica     |                                                           |
+| 47              | 14    | 4         | Wed., 2018-07-18 | Bauer     |                                                           |
+| 48              | 15    | 1         | Thu., 2018-07-19 | Harper    |                                                           |
+| 49              | 15    | 2         | Thu., 2018-07-19 | Bauer     |                                                           |
+| 50              | 15    | 3         | Thu., 2018-07-19 | Balzer    |                                                           |
+| 51              | 15    | 4         | Thu., 2018-07-19 | Ghica     |                                                           |
+| 52              | 16    | 1         | Fri., 2018-07-20 | Ghica     |                                                           |
+| 53              | 16    | 2         | Fri., 2018-07-20 | Balzer    |                                                           |
+| 54              | 16    | 3         | Fri., 2018-07-20 | Bauer     |                                                           |
+| 55              | 17    | 1         | Sat., 2018-07-21 | Ghica     |                                                           |
+| 56              | 17    | 2         | Sat., 2018-07-21 | Bauer     |                                                           |
+| 57              | 17    | 3         | Sat., 2018-07-21 | Balzer    |                                                           |
+| 58              | 17    | 4         | Sat., 2018-07-21 | Harper    |                                                           |
 
 #### Generating the final videos
 
-I used [`ffmpeg`](https://ffmpeg.org/) to combine the raw video files
-and title graphics for each session into a single file suitable for
+In 2018, the A/V lead used [`ffmpeg`](https://ffmpeg.org/) to combine
+the raw video files and title graphics into files suitable for
 uploading to YouTube.
 
-The elements appear in this sequence. The parenthesized number is the
+The video elements appear in this sequence. The parenthesized number is the
 element's length:
 
   * main card (6s)
-  * sponsor card (6s)
+  * sponsors card (6s)
   * session card (6s)
   * session videos (~90m)
   * copyright card (6s)
 
+As noted earlier, the main, sponsors, and copyright cards are the same
+for all videos, and the session card and session videos differ.
 
-
-#### Uploading to YouTube
+#### Publishing to YouTube
 

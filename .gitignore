@@ -1,3 +1,5 @@
+*.gem
+*.lock
 *~
 .byebug_history
 .pryrc
