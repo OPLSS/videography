@@ -23,6 +23,7 @@ Gem::Specification.new do |spec|
   spec.email = 'summerschool@cs.uoregon.edu'
   spec.files = Dir.glob('lib/**/*.rb')
   spec.homepage = 'https://www.cs.uoregon.edu/research/summerschool/summer18/'
+  spec.licenses = %w[0BSD]
   spec.name = OPLSS::Bluebird::NAME
   spec.summary = 'Summary assemble OPLSS video files'
   spec.version = OPLSS::Bluebird::VERSION

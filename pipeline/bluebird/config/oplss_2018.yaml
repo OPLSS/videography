@@ -1,11 +1,17 @@
 ---
+audio:
+  bitrate: 48000
+  channel_type: mono
+  filter: lavfi
 days:
   1: 
-    date: 2018-07-03
+    date: 2018-07-03T00:00:00
     sessions:
       1:
         recordings:
       2:
+        graphics:
+          session: "~/Pictures/OPLSS/2018/title card, session 2.1, logo bottom right.png"
         recordings:
           - hoffmann1-1.mp4
           - hoffmann1-2.mp4
@@ -23,7 +29,7 @@ days:
           - downen2-3.mp4
           - downen2-4.mp4
   2: 
-    date: 2018-07-05
+    date: 2018-07-05T00:00:00
     sessions:
       1:
         recordings:
@@ -41,5 +47,21 @@ days:
           - hoffmann4-1.mp4
           - hoffmann4-2.mp4
           - hoffmann4-3.mp4
+graphics:
+  copyright:
+    image_path: "~/Pictures/OPLSS/2018/title card, copyright, logo middle center.png"
+  main:
+    image_path: "~/Pictures/OPLSS/2018/title card, main, logo middle center.png"
+  sponsors:
+    image_path: "~/Pictures/OPLSS/2018/title card, sponsors, logo bottom right.png"
+image:
+  loop_count: 1
+  pix_fmt: yuv420p
+  title_card_length: 6
 recordings:
   base_url: https://www.cs.uoregon.edu/research/summerschool/summer18/lectures/
+  cache_directory: /tmp/oplss/2018/recordings
+video:
+  codec: libx264
+  preset: ntsc
+  resolution: "1920:1080"

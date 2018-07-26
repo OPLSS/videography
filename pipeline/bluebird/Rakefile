@@ -1,10 +1,19 @@
 $LOAD_PATH.unshift('lib')
+require 'fileutils'
 require 'oplss/bluebird'
 
 desc 'Build the gem'
 task :build do
   require 'rubygems/commands/build_command'
   Gem::Commands::BuildCommand.new.invoke(OPLSS::Bluebird::NAME)
+end
+
+desc 'Delete ephemeral files'
+task :clean do
+  FileUtils.rm_f(
+    Dir.glob(%w[*.gem *.lock]),
+    verbose: true
+  )
 end
 
 # Default task
