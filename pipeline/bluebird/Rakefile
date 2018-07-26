@@ -1,0 +1,28 @@
+$LOAD_PATH.unshift('lib')
+require 'oplss/bluebird'
+
+desc 'Build the gem'
+task :build do
+  require 'rubygems/commands/build_command'
+  Gem::Commands::BuildCommand.new.invoke(OPLSS::Bluebird::NAME)
+end
+
+# Default task
+task default: %i[test]
+
+begin
+  require 'rubocop/rake_task'
+  RuboCop::RakeTask.new(:style)
+rescue LoadError
+  STDERR.puts('RuboCop not installed -- unable to invoke style tests')
+end
+
+desc 'Invoke the unit and style tests'
+task test: %i[unit style]
+
+begin
+  require 'rspec/core/rake_task'
+  RSpec::Core::RakeTask.new(:unit)
+rescue LoadError
+  STDERR.puts('RSpec not installed -- unable to invoke unit tests')
+end

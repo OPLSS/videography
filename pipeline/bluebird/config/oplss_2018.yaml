@@ -1,0 +1,45 @@
+---
+days:
+  1: 
+    date: 2018-07-03
+    sessions:
+      1:
+        recordings:
+      2:
+        recordings:
+          - hoffmann1-1.mp4
+          - hoffmann1-2.mp4
+          - hoffmann1-3.mp4
+      3:
+        recordings:
+          - hoffmann2-1.mp4
+          - hoffmann2-2.mp4
+          - hoffmann2-3.mp4
+          - hoffmann2-4.mp4
+      4:
+        recordings:
+          - downen2-1.mp4
+          - downen2-2.mp4
+          - downen2-3.mp4
+          - downen2-4.mp4
+  2: 
+    date: 2018-07-05
+    sessions:
+      1:
+        recordings:
+          - hoffmann3-1.mp4
+          - hoffmann3-2.mp4
+          - hoffmann3-3.mp4
+          - hoffmann3-4.mp4
+      2:
+        recordings:
+          - downen3-1.mp4
+          - downen3-2.mp4
+          - downen3-3.mp4
+      3:
+        recordings:
+          - hoffmann4-1.mp4
+          - hoffmann4-2.mp4
+          - hoffmann4-3.mp4
+recordings:
+  base_url: https://www.cs.uoregon.edu/research/summerschool/summer18/lectures/
