@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'oplss/recordings'
+
+# Fetch the recordings using the given configuration
+OPLSS::Recordings.new(ARGV).fetch
