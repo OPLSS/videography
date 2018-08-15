@@ -1,4 +1,4 @@
-# OPLSS Audio-Visual Club
+# OPLSS Audio-Visual Tools
 
 This document describes the equipment and procedures we use to
 video-record the Oregon Programming Languages Summer School
@@ -21,24 +21,24 @@ We use the following audio-visual equipment to record each OPLSS session:
 
 ## Camera configuration
 
-The camera should support all of the following configuration variables:
+The camera must support these features:
 
   * zoom
   * auto and manual focus
   * white balance
   * exposure compensation
-  * video file format: MPEG-4, MOV, etc.
+  * common video file format: MPEG-4, MOV, etc.
 
 If the camera records in MPEG-4 format, it _may_ stop recording after 30
-minutes. As such, each session will consume at least two and usually three files.
+minutes. In this case, each 80-minute session will consume at least two files.
 
 ## A/V lead and Assistant
 
-Jim should designate a primary audio-visual lead and an
-assistant. The primary lead will be responsible for all aspects of
+The OPLSS coordinator should designate a primary audio-visual lead and
+an assistant. The lead will be responsible for all aspects of
 operating and maintaining the A/V equipment. The assistant should be
-familiar with this document in order to record a session if the
-primary is unavailable.
+familiar with this document in order to record a session if the lead
+is unavailable.
 
 ## Camera Operation Best Practices
 
@@ -47,16 +47,19 @@ This section summarizes best practices for operating the camera.
 ### Pre-OPLSS rehearsal
 
 At least one week prior to the first OPLSS session, the camera
-operator should arrange a time with Jim to visit the rooms where OPLSS
-will take place and rehearse recording a session. This is vital to
-understanding each room's layout, lighting, and A/V control systems.
+operator should arrange a time with the coordinator to visit the rooms
+where OPLSS will take place and rehearse recording a session. This is
+vital to understanding each room's layout, lighting, and A/V control
+systems.
 
-In 2018, we used the two large classrooms in the Knight Law building,
-rooms 110 and 175. Knight Law has a dedicated A/V staff person. Ensure
-that Jim invites this person to the rehearsal so you can ask
-questions. Jim should bring the camera, microphone, and tripod.
+In most years, we use the two large classrooms in the Knight Law
+building, rooms 110 and 175. Knight Law has a dedicated A/V staff
+person. Ensure that the coordinator invites this person to the
+rehearsal so you can ask questions. The coordinator should bring the
+A/V equipment (camera, microphone, and tripod).
 
-You should do all of the following during the rehearsal session:
+The lead and assistant should do all of the following during the
+rehearsal session:
 
   * Mount the camera on its tripod
   * Connect the wireless microphone and headphones to the camera
@@ -71,11 +74,11 @@ You should do all of the following during the rehearsal session:
 
 ### Recording each session
 
-Arrive at room at least 15 minutes prior to the session's start
-time. Do all of the following during set-up:
+Arrive at the lecture room at least 15 minutes prior to each session's
+start time. Do all of the following during set-up:
 
-  * Mount the camera to its tripod. Insert a fully-charged
-    battery and charge the depleted battery.
+  * Mount the camera to its tripod
+  * Insert a fully-charged battery and charge the depleted battery
   * Set the zoom, focus, white balance, and exposure compensation
   * Connect the wireless microphone and headphones. Power on the
     transmitter and check its battery level. If below 50%, replace the
@@ -90,10 +93,10 @@ session, offer the following advice:
   * Place the transmitter in a pocket or suspend from the belt clip
   * Please repeat questions asked by the audience
 
-If the camera stops recording after 30 minutes, the A/V lead will
-need to restart recording after it stops. I found it less stressful to
-stop and start the recording by waiting for the speaker to pause. Do
-this any time after the timer reaches 28 minutes.
+If the camera automatically stops recording after 30 minutes, the
+operator will need to restart recording after it stops. Rather than
+wait for this to occur, choose a time after 28 minutes when the
+speaker pauses to manually stop and restart the recording.
 
 #### Common problems and solutions
 
@@ -122,11 +125,11 @@ We publish the videos to two locations:
 
 ### Publishing to the OPLSS site
 
-Jim is the only person with credentials on the university's OPLSS
-site. He does this every evening. The A/V lead should remove the
-data card from the camera and give it to Jim at the conclusion of each
-day's sessions. Likewise, the lead should retrieve the card from
-Jim before recording the next day.
+The OPLSS coordinator is the only person with credentials on the
+university's OPLSS site. Historically, the coordinator uploads raw
+video files every evening. The A/V lead should give the day's data
+card to the coordinator at the conclusion of each day's sessions and
+retrieve the card from the coordinator before recording the next day.
 
 ### Publishing to YouTube
 
