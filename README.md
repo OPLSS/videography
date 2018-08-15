@@ -10,16 +10,16 @@ We use the following audio-visual equipment to record each OPLSS session:
 
   * HD camcorder or digital SLR camera, plus its battery charger
   * tripod
-  * wireless microphone (which the speaker wears)
-  * headphones (to monitor the camera's audio input)
+  * wireless microphone _(which the speaker wears)_
+  * headphones _(to monitor the camera's audio input)_
   * a set of rechargeable AA and AAA batteries, plus a charger
-  * power strip (to charge batteries)
-  * laser pointer
+  * power strip
   * common HDMI video adapters
 	* USB-C
     * Apple Thunderbolt
+  * laser pointer
 
-## Camera configuration
+## Video Camera Properties
 
 The camera must support these features:
 
