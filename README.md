@@ -202,7 +202,9 @@ to each session.
 
 #### Publishing to YouTube
 
-_Pending_
+We publish edited session videos to the [`OPLSS` YouTube
+channel](https://www.youtube.com/channel/UCDe6N9R7U-RYWA57wzJQ2SQ). The
+lead needs a Google account and "manager" permissions on the `OPLSS`
+brand account.
 
-  * `OPLSS` channel
-  * lead needs "manager" permissions
+_More pending..._
