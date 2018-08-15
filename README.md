@@ -165,24 +165,32 @@ The OPLSS font and logo use these colors:
 | grey   | 828282    |
 | yellow | fee123    |
 
-See the [2018 session schedule](schedule.csv).
+See the [2018 session schedule](configuration/schedule.csv).
 
 #### Generating the final videos
 
-In 2018, the A/V lead used [`ffmpeg`](https://ffmpeg.org/) to combine the raw video files and
+In 2018, the A/V lead used [`FFmpeg`](https://ffmpeg.org/) to combine the raw video files and
 title graphics into files suitable for uploading to YouTube.
+
+After generating the graphics, the lead used FFmpeg to convert them to
+MPEG-4 videos with the same properties as the recorded videos. The
+lead then concatenated them using FFmpeg's
+[`concat`](https://ffmpeg.org/ffmpeg-filters.html#concat) filter.
 
 The video elements appear in this sequence. The parenthesized number is the
 element's length:
 
-  * main card (6s)
+  * main title card (6s)
   * sponsors card (6s)
-  * session card (6s)
+  * session title card (6s)
+  * editor's notes (6s) /when relevant/
   * session videos (~90m)
   * copyright card (6s)
 
 As noted earlier, the main, sponsors, and copyright cards are the same
-for all videos, and the session card and session videos differ.
+for all videos, and whereas session card and videos are unique to each
+session.
 
 #### Publishing to YouTube
 
+_Pending_
