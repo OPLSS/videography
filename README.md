@@ -192,7 +192,7 @@ element's length:
   * main title card (6s)
   * sponsors card (6s)
   * session title card (6s)
-  * editor's notes card (6s) /when relevant/
+  * editor's notes card (6s) _(when relevant)_
   * session videos (~90m)
   * copyright card (6s)
 
