@@ -113,7 +113,7 @@ The lead should maintain a table of metadata about the sessions,
 including the following information:
 
   * the session's absolute count
-  * a session identifier in "<day>.<session>" format
+  * a session identifier in `<day>.<session>` format
   * the speaker's name and affiliation
   * the session's topic
   * the session's date, start time, and end time
