@@ -111,10 +111,10 @@ not* stop the speaker: instead, address the issue after the session.
 
 We store the the A/V equipment in a secure location when the A/V lead
 is not present.  In 2018 at the Knight Law building, we stored the
-equipment in locked equipment closets connected to the classrooms. Jim
-was responsible for managing the key. If this is the case in future
-years, the lead should acquire the key from Jim as early as possible
-before a session to retrieve the equipment.
+equipment in locked equipment closets connected to the classrooms. The
+coordinator was responsible for managing the key. If this is the case
+in future years, the lead should acquire the key from the coordinator
+as early as possible before a session to retrieve the equipment.
 
 ## Video Publishing Procedures
 
