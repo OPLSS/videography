@@ -149,33 +149,42 @@ The common cards are:
   * sponsors
   * copyright notice
 
+The unique cards are:
+
+  * session title
+  * editor's notes
+
 The session cards state the topic, the speaker, the speaker's
-affiliation, and the date.
+affiliation, and the date. For recordings with audio or video
+problems, the A/V lead created a card stating editor's notes.
 
-In 2018, the A/V lead used GIMP to create the cards.
+In 2018, the A/V lead used [GIMP](https://gimp.org/) to create the cards.
 
-The OPLSS font is named [_PT Mono Bold_](https://www.1001fonts.com/pt-mono-font.html#character-map-bold). "PT" is a reference to [ParaType](https://www.paratype.com/),
-the font's creator.
+The OPLSS font is named [_PT Mono
+Bold_](https://www.1001fonts.com/pt-mono-font.html#character-map-bold). "PT"
+is a reference to [ParaType](https://www.paratype.com/), the font's
+creator.
 
 The OPLSS font and logo use these colors:
 
 | *Color* | *RGB (hex)* |
-|--------|-----------|
-| green  | 248c68    |
-| grey   | 828282    |
-| yellow | fee123    |
+|---------|-------------|
+| green   | 248c68      |
+| grey    | 828282      |
+| yellow  | fee123      |
 
 See the [2018 session schedule](configuration/schedule.csv).
 
 #### Generating the final videos
 
-In 2018, the A/V lead used [`FFmpeg`](https://ffmpeg.org/) to combine the raw video files and
-title graphics into files suitable for uploading to YouTube.
+In 2018, the A/V lead used [`FFmpeg`](https://ffmpeg.org/) to combine
+the raw video files and title graphics into files suitable for
+uploading to YouTube.
 
 After generating the graphics, the lead used FFmpeg to convert them to
-MPEG-4 videos with the same properties as the recorded videos. The
-lead then concatenated them using FFmpeg's
-[`concat`](https://ffmpeg.org/ffmpeg-filters.html#concat) filter.
+MPEG-4 videos with the same properties as the recorded videos. For
+each session, the lead concatenated the video files using FFmpeg's
+[`concat` filter](https://ffmpeg.org/ffmpeg-filters.html#concat).
 
 The video elements appear in this sequence. The parenthesized number is the
 element's length:
@@ -183,14 +192,17 @@ element's length:
   * main title card (6s)
   * sponsors card (6s)
   * session title card (6s)
-  * editor's notes (6s) /when relevant/
+  * editor's notes card (6s) /when relevant/
   * session videos (~90m)
   * copyright card (6s)
 
 As noted earlier, the main, sponsors, and copyright cards are the same
-for all videos, and whereas session card and videos are unique to each
-session.
+for all videos, and whereas session titles and recordings are unique
+to each session.
 
 #### Publishing to YouTube
 
 _Pending_
+
+  * `OPLSS` channel
+  * lead needs "manager" permissions
