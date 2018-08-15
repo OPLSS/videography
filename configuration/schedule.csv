@@ -1,0 +1,59 @@
+| *Session Number* | *Day Number* | *Day Session* | *Date*           | *Speaker* | *Topic*                                                      |
+|                1 |            1 |             1 | Tue., 2018-07-03 | Downen    | Scope and Binding                                            |
+|                2 |            1 |             2 | Tue., 2018-07-03 | Hoffmann  | Static Semantics                                             |
+|                3 |            1 |             3 | Tue., 2018-07-03 | Hoffmann  | Dynamic Semantics and Type Safety                            |
+|                4 |            1 |             4 | Tue., 2018-07-03 | Downen    | Typed and Untyped Lambda-Calculus                            |
+|                5 |            2 |             1 | Thu., 2018-07-05 | Hoffmann  | Finite Data Structures                                       |
+|                6 |            2 |             2 | Thu., 2018-07-05 | Downen    | Recursive Types and Programs                                 |
+|                7 |            2 |             3 | Thu., 2018-07-05 | Hoffmann  | PCF and Cost Semantics                                       |
+|                8 |            3 |             1 | Fri., 2018-07-06 | Hoffmann  | Cost Semantics of Parallelism                                |
+|                9 |            3 |             2 | Fri., 2018-07-06 | Hoffmann  | Bounded Implementations and Brent's Theorem                  |
+|               10 |            3 |             3 | Fri., 2018-07-06 | Downen    | Polymorphic Lambda-Calculus [1/2]                            |
+|               11 |            3 |             4 | Fri., 2018-07-06 | Downen    | Polymorphic Lambda-Calculus [2/2]                            |
+|               12 |            3 |             5 | Fri., 2018-07-06 | Hoffmann  | System F Type Encodings                                      |
+|               13 |            4 |             1 | Sat., 2018-07-07 | Downen    | Linear Logic [1/2]                                           |
+|               14 |            4 |             2 | Sat., 2018-07-07 | Downen    | Linear Logic [2/2]                                           |
+|               15 |            4 |             3 | Sat., 2018-07-07 | Downen    | Linear Lambda-Calculus                                       |
+|               16 |            5 |             1 | Sun., 2018-07-08 | Downen    | Reducibility - Simply-Typed Lambda Calculus                  |
+|               17 |            5 |             2 | Sun., 2018-07-08 | Downen    | Reducibility Candidates - System F                           |
+|               18 |            6 |             1 | Mon., 2018-07-09 | Blelloch  | Parallel Cost Semantics and Bounded Implementations [1/5]    |
+|               19 |            6 |             2 | Mon., 2018-07-09 | Acar      | Parallel Algorithms [1/5]                                    |
+|               20 |            6 |             3 | Mon., 2018-07-09 | Saraswat  | Resilient X10 [1/3]                                          |
+|               21 |            7 |             1 | Tue., 2018-07-10 | Acar      | Parallel Algorithms                                          |
+|               22 |            7 |             2 | Tue., 2018-07-10 | Blelloch  | Parallel Cost Semantics and Bounded Implementations [2/5]    |
+|               23 |            7 |             3 | Tue., 2018-07-10 | Saraswat  | Resilient X10                                                |
+|               24 |            8 |             1 | Wed., 2018-07-11 | Acar      | Parallel Algorithms                                          |
+|               25 |            8 |             2 | Wed., 2018-07-11 | Blelloch  | Parallel Cost Semantics and Bounded Implementations [3/5]    |
+|               26 |            8 |             3 | Wed., 2018-07-11 | Saraswat  | Resilient X10                                                |
+|               27 |            8 |             4 | Wed., 2018-07-11 | Turon     | Help Wanted                                                  |
+|               28 |            9 |             1 | Thu., 2018-07-12 | Acar      | Parallel Algorithms                                          |
+|               29 |            9 |             2 | Thu., 2018-07-12 | Acar      | Parallel Algorithms                                          |
+|               30 |            9 |             3 | Thu., 2018-07-12 | Keller    | Purely Functional Array Programming [1/3]                    |
+|               31 |           10 |             1 | Fri., 2018-07-13 | Blelloch  | Parallel Cost Semantics and Bounded Implementations [4/5]    |
+|               32 |           10 |             2 | Fri., 2018-07-13 | Blelloch  | Parallel Cost Semantics and Bounded Implementations [5/5]    |
+|               33 |           10 |             3 | Fri., 2018-07-13 | Keller    | Purely Functional Array Programming [2/3]                    |
+|               34 |           11 |             1 | Sat., 2018-07-14 | Keller    | Purely Functional Array Programming [3/3]                    |
+|               35 |           11 |             2 | Sat., 2018-07-14 | Pingali   | Data-Centric Abstractions...                                 |
+|               36 |           11 |             3 | Sat., 2018-07-14 | Arvind    | Dataflow: A Retrospective                                    |
+|               37 |           11 |             4 | Sat., 2018-07-14 | Duff      | Typing Speed...                                              |
+|               38 |           12 |             1 | Mon., 2018-07-16 | Harper    | Computational Type Theory [1/5]                              |
+|               39 |           12 |             2 | Mon., 2018-07-16 | Pingali   | A Programmer's View...                                       |
+|               40 |           12 |             3 | Mon., 2018-07-16 | Arvind    | Bluespec System Verilog:...                                  |
+|               41 |           13 |             1 | Tue., 2018-07-17 | Harper    | Computational Type Theory [2/5]                              |
+|               42 |           13 |             2 | Tue., 2018-07-17 | Pingali   | Implementing the Operator Formulation                        |
+|               43 |           13 |             3 | Tue., 2018-07-17 | Arvind    | Bluespec System Verilog: Concurrency and Semantics           |
+|               44 |           14 |             1 | Wed., 2018-07-18 | Harper    | Computational Type Theory [3/5]                              |
+|               45 |           14 |             2 | Wed., 2018-07-18 | Balzer    | Session-Typed Concurrent Programming [1/4]                   |
+|               46 |           14 |             3 | Wed., 2018-07-18 | Ghica     | Game Semantics [1/4]                                         |
+|               47 |           14 |             4 | Wed., 2018-07-18 | Bauer     | What's Algebraic About Algebraic Effects and Handlers? [1/2] |
+|               48 |           15 |             1 | Thu., 2018-07-19 | Harper    | Computational Type Theory [3/5]                              |
+|               49 |           15 |             2 | Thu., 2018-07-19 | Bauer     | What's Algebraic About Algebraic Effects and Handlers? [2/2] |
+|               50 |           15 |             3 | Thu., 2018-07-19 | Balzer    | Session-Typed Concurrent Programming [2/4]                   |
+|               51 |           15 |             4 | Thu., 2018-07-19 | Ghica     | Game Semantics [2/4]                                         |
+|               52 |           16 |             1 | Fri., 2018-07-20 | Ghica     | Game Semantics [3/4]                                         |
+|               53 |           16 |             2 | Fri., 2018-07-20 | Balzer    | Session-Typed Concurrent Programming [3/4]                   |
+|               54 |           16 |             3 | Fri., 2018-07-20 | Bauer     | Designing a Programming Language                             |
+|               55 |           17 |             1 | Sat., 2018-07-21 | Ghica     | Game Semantics [4/4]                                         |
+|               56 |           17 |             2 | Sat., 2018-07-21 | Bauer     | Programming with Algebraic Effects and Handlers              |
+|               57 |           17 |             3 | Sat., 2018-07-21 | Balzer    | Session-Typed Concurrent Programming [4/4]                   |
+|               58 |           17 |             4 | Sat., 2018-07-21 | Harper    | Computational Type Theory [5/5]                              |

@@ -1,5 +1,6 @@
 require 'mixlib/shellout'
 require 'oplss/bluebird/configuration'
+require 'oplss/bluebird/video'
 require 'tempfile'
 
 #
@@ -14,40 +15,45 @@ module OPLSS
 
       #
       def run
+        #DISABLED# require 'byebug' ; byebug #DEBUG#
         # Convert title graphic files to video files
         @config.graphics.each do |base_name, options|
-          image_video = Tempfile.new([base_name, '.mp4'])
-          @config['graphics'][base_name]['video_path'] = image_video.path
-          command = Mixlib::ShellOut.new(
-            [
-              'ffmpeg',
-              '-loop', @config.image['loop_count'],
-              "-i '#{File.expand_path(options['image_path'])}'",
-              '-f', @config.audio['filter'],
-              '-i', "anullsrc=r=#{@config.audio['bitrate']}:cl=#{@config.audio['channel_type']}",
-              '-t', @config.image['title_card_length'],
-              '-c:v', @config.video['codec'],
-              '-t', @config.image['title_card_length'],
-              '-pix_fmt', @config.image['pix_fmt'],
-              '-vf', "scale=#{@config.video['resolution']}",
-              '-r', @config.video['preset'],
-              image_video.path
-            ].join(' '),
-            live_stream: STDERR
+          video = Video.from_image(
+            File.expand_path(options['image_path']), length: 6, resolution: { h: 1080, w: 1920 }
           )
-#DISABLED#          require 'byebug' ; byebug #DEBUG#
-          command.run_command
+          @config['graphics'][base_name]['video_path'] = video.path
           true
         end
 
-        # Iterate over the days
-        @config.days.each do |day, config|
-          # Iterate over the recordings
-          config['recordings'].each do |recording_name|
-            # Download the recording unless it's already cached
-            true unless File.exists?(
-                          File.join(@config['recordings']['cache_directory'], recording_name)
-                        )
+        # Iterate over the list of days
+        @config.days.each do |day, day_config|
+          # Iterate over the list of sessions
+          config[].each do |session_id, session_config|
+
+            # Iterate over the list of recordings
+            config['recordings'].each do |recording_name|
+              # Download the recording unless it's already cached
+              unless File.exists?(
+                       File.join(@config['recordings']['cache_directory'], recording_name)
+                     )
+                
+              end
+            end
+
+            # Build a "concat" filter manifest
+            concat_manifest = Tempfile.new('manifest')
+
+            concat_manifest.write(<<-MANIFEST)
+file '#{@config.graphics['graphics']['main']['video_path']}'
+file '#{@config.graphics['graphics']['sponsors']['video_path']}'
+file '#{@config.graphics['graphics']['copyright']['video_path']}'
+          MANIFEST
+
+            # Generate a single video file from the title graphics and session videos
+
+            # Delete temporary files
+            concat_manifest.unlink
+          end
         end
       end
     end

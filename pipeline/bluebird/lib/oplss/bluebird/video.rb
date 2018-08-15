@@ -3,6 +3,15 @@ require 'mixlib/shellout'
 #
 module OPLSS
   #
+  class Video
+    def initialize(
+          sequence: []
+        )
+      @sequence = sequence
+    end
+  end
+
+  #
   module Bluebird
     #
     class Video
@@ -24,6 +33,7 @@ module OPLSS
         @audio_channels = 'mono'
         @audio_filter = 'lavfi'
         @codec = 'libx264'
+        @elements = []
         @format = 'mp4'
         @length = length
         @loop_count = 1
@@ -39,7 +49,6 @@ module OPLSS
             length: 0,
             resolution: { h: 0, w: 0 }
           )
-        #DISABLED# require 'byebug' ; byebug #DEBUG#
         #
         dir_name   = File.dirname(image_path)
         base_name  = File.basename(image_path).gsub(/\.[^.]+$/, '')

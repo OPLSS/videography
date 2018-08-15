@@ -2,5 +2,5 @@
 
 require 'oplss/recordings'
 
-# Fetch the recordings using the given configuration
-OPLSS::Recordings.new(ARGV).fetch
+# Fetch recordings to local files using the given configuration
+STDERR.puts(OPLSS::Recordings.new(ARGV).fetch)

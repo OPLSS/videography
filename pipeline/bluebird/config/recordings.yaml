@@ -1,14 +1,18 @@
 ---
 base_uri: "https://www.cs.uoregon.edu/research/summerschool/summer18/lectures"
-base_path: "/run/user/1000/gvfs/afp-volume:host=nas001.local,user=metameme,volume=Universe/Media/Video/OPLSS/2018"
+base_path: /home/self/Remote/nas01/universe/Media/Video/OPLSS/2018
 file_pattern: "%<speaker>s%<session>d-%<part>d.mp4"
 recordings:
   downen:
-    2: 3
-    3: 3
-    4: 3
+    5: 3
+    6: 3
+    7: 3
   hoffmann:
-    1: 3
-    2: 4
     3: 4
     4: 3
+sessions:
+  1.1:
+    recordings:
+      - "/home/self/Remote/nas01/universe/Media/Video/OPLSS/2018/OPLSS 2018, Session 1.1.1.MP4"
+      - "/home/self/Remote/nas01/universe/Media/Video/OPLSS/2018/OPLSS 2018, Session 1.1.1.MP4"
+      - "/home/self/Remote/nas01/universe/Media/Video/OPLSS/2018/OPLSS 2018, Session 1.1.1.MP4"

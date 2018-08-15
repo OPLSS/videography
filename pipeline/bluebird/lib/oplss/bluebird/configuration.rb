@@ -22,8 +22,8 @@ module OPLSS
       private
 
       #
-      def method_missing(key)
-        self.key?(key.to_s) ? self[key.to_s] : nil
+      def method_missing(name)
+        ->(key) { self.key?(key) ? self[key] : nil }.call(name.to_s)
       end
     end
   end

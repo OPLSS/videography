@@ -3,5 +3,5 @@
 require 'oplss/bluebird'
 
 ARGV.each do |path|
-  OPLSS::Bluebird::Video.from_image(path, length: 6, resolution: { h: 1080, w: 1092 })
+  OPLSS::Bluebird::Video.from_image(path, length: 6, resolution: { h: 1080, w: 1920 })
 end

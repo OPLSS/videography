@@ -47,6 +47,17 @@ days:
           - hoffmann4-1.mp4
           - hoffmann4-2.mp4
           - hoffmann4-3.mp4
+  5:
+    date: 2018-07-08
+    sessions:
+      1:
+        graphics:
+          session: "~/Pictures/OPLSS/2018/title card, session 5.1, logo bottom right.png"
+        recordings:
+          - MVI_0579.MP4
+          - MVI_0580.MP4
+          - MVI_0581.MP4
+          - MVI_0582.MP4
 graphics:
   copyright:
     image_path: "~/Pictures/OPLSS/2018/title card, copyright, logo middle center.png"
@@ -60,8 +71,11 @@ image:
   title_card_length: 6
 recordings:
   base_url: https://www.cs.uoregon.edu/research/summerschool/summer18/lectures/
-  cache_directory: /tmp/oplss/2018/recordings
+  cache_directory: "~/Videos/OPLSS/2018/Session 5.1, 2018-07-08"
+    #/tmp/oplss/2018/recordings
 video:
   codec: libx264
   preset: ntsc
-  resolution: "1920:1080"
+  resolution:
+    height: 1080
+    width: 1920
