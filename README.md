@@ -107,6 +107,18 @@ exhaust themselves, replace them as quickly and quietly as possible,
 then reconnect the mic. If the problem lies with the transmitter, *do
 not* stop the speaker: instead, address the issue after the session.
 
+### Maintaining session metadata
+
+The lead should maintain a table of metadata about the sessions,
+including the following information:
+
+  * the session's absolute count
+  * a session identifier in "<day>.<session>" format
+  * the speaker's name and affiliation
+  * the session's topic
+  * the session's date, start time, and end time
+  * the card ID on which the session was recorded
+
 ### Storing the A/V equipment
 
 We store the the A/V equipment in a secure location when the A/V lead
