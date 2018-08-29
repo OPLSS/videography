@@ -1,8 +1,8 @@
 # OPLSS Audio-Visual Tools
 
-This document describes the equipment and procedures we use to
-video-record the Oregon Programming Languages Summer School
-sessions. It also describes how we publish the recordings.
+This document describes the equipment and procedures we use to record
+the Oregon Programming Languages Summer School sessions. It also
+describes how we publish the recordings.
 
 ## A/V Equipment Inventory
 
@@ -19,26 +19,26 @@ We use the following audio-visual equipment to record each OPLSS session:
     * Apple Thunderbolt
   * laser pointer
 
-## Video Camera Properties
+## Video Camera Features
 
-The camera must support these features:
+The video camera must support these features:
 
   * zoom
   * auto and manual focus
   * white balance
   * exposure compensation
-  * common video file format: MPEG-4, MOV, etc.
+  * a popular video file format: MPEG-4, MOV, etc.
 
 If the camera records in MPEG-4 format, it _may_ stop recording after 30
 minutes. In this case, each 80-minute session will consume at least two files.
 
-## A/V lead and Assistant
+## Lead and Assistant Videographers
 
-The OPLSS coordinator should designate a primary audio-visual lead and
-an assistant. The lead will be responsible for all aspects of
-operating and maintaining the A/V equipment. The assistant should be
-familiar with this document in order to record a session if the lead
-is unavailable.
+The OPLSS coordinator should designate a lead videographer and an
+assistant. The lead is responsible for all aspects of operating and
+maintaining the A/V equipment, as well as editing and publishing the
+recordings. The assistant should be familiar with this document in
+order to record a session if the lead is unavailable.
 
 ## Camera Operation Best Practices
 
@@ -113,17 +113,18 @@ The lead should maintain a table of metadata about the sessions,
 including the following information:
 
   * the session's absolute count
-  * a session identifier in `<day>.<session>` format
+  * a session identifier in `<day>.<session number>` format
   * the speaker's name and affiliation
-  * the session's topic
+  * the lecture's topic
   * the session's date, start time, and end time
   * the card ID on which the session was recorded
+  * notes about the recording: audio or video problems, etc.
 
-### Storing the A/V equipment
+### Securely storing A/V equipment
 
-We store the the A/V equipment in a secure location when the A/V lead
-is not present.  In 2018 at the Knight Law building, we stored the
-equipment in locked equipment closets connected to the classrooms. The
+We store the the A/V equipment in a secure location when the lead
+videographer is not present.  In 2018 at the Knight Law building, we
+used the locked equipment closets connected to the lecture rooms. The
 coordinator was responsible for managing the key. If this is the case
 in future years, the lead should acquire the key from the coordinator
 as early as possible before a session to retrieve the equipment.
@@ -139,9 +140,10 @@ We publish the videos to two locations:
 
 The OPLSS coordinator is the only person with credentials on the
 university's OPLSS site. Historically, the coordinator uploads raw
-video files every evening. The A/V lead should give the day's data
-card to the coordinator at the conclusion of each day's sessions and
-retrieve the card from the coordinator before recording the next day.
+video files every evening. The lead videographer should give the day's
+data card to the coordinator at the conclusion of each day's sessions
+and retrieve the card from the coordinator before recording the next
+day.
 
 ### Publishing to YouTube
 
@@ -150,7 +152,7 @@ multiple software components and a considerable amount of manual effort.
 
 #### Creating title graphics
 
-The A/V lead should create title graphics to accompany the session
+The lead videographer should create title graphics to accompany the session
 videos.  We refer to them here as "title cards" or "cards." We created
 one set of cards that appear in every video, along with a set unique
 to each session.
@@ -168,9 +170,9 @@ The unique cards are:
 
 The session cards state the topic, the speaker, the speaker's
 affiliation, and the date. For recordings with audio or video
-problems, the A/V lead created a card stating editor's notes.
+problems, the lead videographer created a card stating editor's notes.
 
-In 2018, the A/V lead used [GIMP](https://gimp.org/) to create the cards.
+In 2018, the lead used [GIMP](https://gimp.org/) to create the cards.
 
 The OPLSS font is named [_PT Mono
 Bold_](https://www.1001fonts.com/pt-mono-font.html#character-map-bold). "PT"
@@ -189,8 +191,8 @@ See the [2018 session schedule](configuration/schedule.csv).
 
 #### Generating the final videos
 
-In 2018, the A/V lead used [`FFmpeg`](https://ffmpeg.org/) to combine
-the raw video files and title graphics into files suitable for
+In 2018, the lead videographer used [`FFmpeg`](https://ffmpeg.org/) to
+combine the raw video files and title graphics into files suitable for
 uploading to YouTube.
 
 After generating the graphics, the lead used FFmpeg to convert them to
