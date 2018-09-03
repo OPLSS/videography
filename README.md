@@ -172,7 +172,9 @@ The session cards state the topic, the speaker, the speaker's
 affiliation, and the date. For recordings with audio or video
 problems, the lead videographer created a card stating editor's notes.
 
-In 2018, the lead used [GIMP](https://gimp.org/) to create the cards.
+In 2018, the lead used [GIMP](https://gimp.org/) to create the cards
+and xcf2png from [xcftools](http://henning.makholm.net/xcftools/) to
+convert GIMP's XCF files to PNG format.
 
 The OPLSS font is named [_PT Mono
 Bold_](https://www.1001fonts.com/pt-mono-font.html#character-map-bold). "PT"
@@ -191,14 +193,14 @@ See the [2018 session schedule](configuration/schedule.csv).
 
 #### Generating the final videos
 
-In 2018, the lead videographer used [`FFmpeg`](https://ffmpeg.org/) to
-combine the raw video files and title graphics into files suitable for
-uploading to YouTube.
+In 2018, the lead videographer used [`FFmpeg`](https://ffmpeg.org/)
+and a set of custom tools to combine the raw video files and title
+graphics into files suitable for uploading to YouTube. The custom
+tools reside in this repository's `bin` directory. They're written in
+Ruby and require at least Ruby 2.4.
 
 After generating the graphics, the lead used FFmpeg to convert them to
-MPEG-4 videos with the same properties as the recorded videos. For
-each session, the lead concatenated the video files using FFmpeg's
-[`concat` filter](https://ffmpeg.org/ffmpeg-filters.html#concat).
+MPEG-4 videos, then concatenated each session's video files.
 
 The video elements appear in this sequence. The parenthesized number is the
 element's length:
@@ -214,6 +216,10 @@ As noted earlier, the main, sponsors, and copyright cards are the same
 for all videos, and whereas session titles and recordings are unique
 to each session.
 
+ using
+FFmpeg's [`concat`
+filter](https://ffmpeg.org/ffmpeg-filters.html#concat)
+
 #### Publishing to YouTube
 
 We publish edited session videos to the [`OPLSS` YouTube
@@ -221,4 +227,14 @@ channel](https://www.youtube.com/channel/UCDe6N9R7U-RYWA57wzJQ2SQ). The
 lead needs a Google account and "manager" permissions on the `OPLSS`
 brand account.
 
-_More pending..._
+YouTube recommends these [encoding
+guidelines](https://support.google.com/youtube/answer/1722171?hl=en):
+
+| Container    | [MP4](https://en.wikipedia.org/wiki/MPEG-4_Part_14)                                                                                                   |
+| Video codec  | [H.264](https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC)                                                                                               |
+| Audio        | [AAC-LC](https://en.wikipedia.org/wiki/Advanced_Audio_Coding)                                                                                         |
+| Frame rate   | _Any standard rate_                                                                                                                                   |
+| Bitrate      | _Varies by format_                                                                                                                                    |
+| Resolution   | Preferably 1920x1080 / [1080p](https://en.wikipedia.org/wiki/1080p) -- see YouTube's [suggestions](https://support.google.com/youtube/answer/6375112) |
+| Aspect ratio | [16:9](https://en.wikipedia.org/wiki/16:9)                                                                                                            |
+| Scan type    | [Progressive](https://en.wikipedia.org/wiki/Progressive_scan)                                                                                         |
