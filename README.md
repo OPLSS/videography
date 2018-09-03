@@ -231,6 +231,7 @@ YouTube recommends these [encoding
 guidelines](https://support.google.com/youtube/answer/1722171?hl=en):
 
 | *Parameter*  | *Value*                                                             |
+|--------------|---------------------------------------------------------------------|
 | Container    | [MP4](https://en.wikipedia.org/wiki/MPEG-4_Part_14)                 |
 | Video codec  | [H.264](https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC)             |
 | Audio        | [AAC-LC](https://en.wikipedia.org/wiki/Advanced_Audio_Coding)       |
