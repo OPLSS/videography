@@ -230,11 +230,14 @@ brand account.
 YouTube recommends these [encoding
 guidelines](https://support.google.com/youtube/answer/1722171?hl=en):
 
-| Container    | [MP4](https://en.wikipedia.org/wiki/MPEG-4_Part_14)                                                                                                   |
-| Video codec  | [H.264](https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC)                                                                                               |
-| Audio        | [AAC-LC](https://en.wikipedia.org/wiki/Advanced_Audio_Coding)                                                                                         |
-| Frame rate   | _Any standard rate_                                                                                                                                   |
-| Bitrate      | _Varies by format_                                                                                                                                    |
-| Resolution   | Preferably 1920x1080 / [1080p](https://en.wikipedia.org/wiki/1080p) -- see YouTube's [suggestions](https://support.google.com/youtube/answer/6375112) |
-| Aspect ratio | [16:9](https://en.wikipedia.org/wiki/16:9)                                                                                                            |
-| Scan type    | [Progressive](https://en.wikipedia.org/wiki/Progressive_scan)                                                                                         |
+| *Parameter*  | *Value*                                                             |
+| Container    | [MP4](https://en.wikipedia.org/wiki/MPEG-4_Part_14)                 |
+| Video codec  | [H.264](https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC)             |
+| Audio        | [AAC-LC](https://en.wikipedia.org/wiki/Advanced_Audio_Coding)       |
+| Frame rate   | _Any standard rate_                                                 |
+| Bitrate      | _Varies by format_                                                  |
+| Resolution   | Preferably 1920x1080 / [1080p](https://en.wikipedia.org/wiki/1080p) |
+| Aspect ratio | [16:9](https://en.wikipedia.org/wiki/16:9)                          |
+| Scan type    | [Progressive](https://en.wikipedia.org/wiki/Progressive_scan)       |
+
+See also YouTube's [resolution suggestions](https://support.google.com/youtube/answer/6375112).
