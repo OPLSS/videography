@@ -237,12 +237,12 @@ Due to the large file sizes and the time required to process the
 videos, the lead should strive to maximally automate the video
 pipeline.
 
-#### Publishing to YouTube
+#### Uploading to YouTube
 
 We publish edited session videos to the [`OPLSS` YouTube
 channel](https://www.youtube.com/channel/UCDe6N9R7U-RYWA57wzJQ2SQ). The
 lead needs a Google account and "manager" permissions on the `OPLSS`
-brand account.
+brand account. See YouTube's [brand account documentation](https://support.google.com/accounts/answer/7001996?co=GENIE.Platform%3DDesktop&hl=en).
 
 YouTube recommends these [encoding
 guidelines](https://support.google.com/youtube/answer/1722171?hl=en):
