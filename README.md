@@ -93,6 +93,8 @@ session, offer the following advice:
   * Place the transmitter in a pocket or suspend from the belt clip
   * Please repeat questions asked by the audience
 
+If the speaker uses the overhead projector, offer the laser pointer.
+
 If the camera automatically stops recording after 30 minutes, the
 operator will need to restart recording after it stops. Rather than
 wait for this to occur, choose a time after 28 minutes when the
