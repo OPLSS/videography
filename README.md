@@ -203,7 +203,7 @@ After generating the graphics, the lead used FFmpeg to convert them to
 MPEG-4 videos, then concatenated each session's video files.
 
 The video elements appear in this sequence. The parenthesized number is the
-element's length:
+element's time length:
 
   * main title card (6s)
   * sponsors card (6s)
@@ -212,13 +212,28 @@ element's length:
   * session videos (~90m)
   * copyright card (6s)
 
-As noted earlier, the main, sponsors, and copyright cards are the same
-for all videos, and whereas session titles and recordings are unique
-to each session.
+As noted earlier, the main, sponsors, and copyright cards were the
+same for all videos, whereas the session titles and recordings were
+unique to each session.
 
- using
-FFmpeg's [`concat`
-filter](https://ffmpeg.org/ffmpeg-filters.html#concat)
+The custom tools partially automated the rendering process:
+
+  * `from_image` converted an image file into a short video with the
+    same encoding as the session recordings. The lead used this tool
+    to render title graphics as videos.
+  * `sequence` generated an ASCII sequence file in a format suitable
+    for input to FFmpeg's
+    [concat](https://ffmpeg.org/ffmpeg-filters.html#concat). This file
+    specified the video concatenation sequence.
+  * `render` used FFmpeg's
+    [concat](https://ffmpeg.org/ffmpeg-filters.html#concat) and a
+    sequence file to render a YouTube-compatible file. See also
+    [commentary on FFmpeg's concatenation
+    options](https://trac.ffmpeg.org/wiki/Concatenate).
+
+Due to the large file sizes and the time required to process the
+videos, the lead should strive to maximally automate the video
+pipeline.
 
 #### Publishing to YouTube
 
@@ -230,15 +245,21 @@ brand account.
 YouTube recommends these [encoding
 guidelines](https://support.google.com/youtube/answer/1722171?hl=en):
 
-| *Parameter*  | *Value*                                                             |
-|--------------|---------------------------------------------------------------------|
-| Container    | [MP4](https://en.wikipedia.org/wiki/MPEG-4_Part_14)                 |
-| Video codec  | [H.264](https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC)             |
-| Audio        | [AAC-LC](https://en.wikipedia.org/wiki/Advanced_Audio_Coding)       |
-| Frame rate   | _Any standard rate_                                                 |
-| Bitrate      | _Varies by format_                                                  |
-| Resolution   | Preferably 1920x1080 / [1080p](https://en.wikipedia.org/wiki/1080p) |
-| Aspect ratio | [16:9](https://en.wikipedia.org/wiki/16:9)                          |
-| Scan type    | [Progressive](https://en.wikipedia.org/wiki/Progressive_scan)       |
+| *Parameter*  | *Value*                                                                            |
+|--------------|------------------------------------------------------------------------------------|
+| Container    | [MP4](https://en.wikipedia.org/wiki/MPEG-4_Part_14)                                |
+| Video codec  | [H.264](https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC)                            |
+| Audio        | [AAC-LC](https://en.wikipedia.org/wiki/Advanced_Audio_Coding)                      |
+| Frame rate   | _Any standard rate_                                                                |
+| Bitrate      | _Varies by format_                                                                 |
+| Resolution   | Preferably full HD, i.e., [1080p](https://en.wikipedia.org/wiki/1080p) / 1920x1080 |
+| Aspect ratio | [16:9](https://en.wikipedia.org/wiki/16:9)                                         |
+| Scan type    | [Progressive](https://en.wikipedia.org/wiki/Progressive_scan)                      |
 
 See also YouTube's [resolution suggestions](https://support.google.com/youtube/answer/6375112).
+
+A 90-minute 1920x1080 video may consume 8GB or more of storage, and
+therefore requires substantial upstream bandwidth to upload. In 2018,
+the lead used a wired connection in the U of O's computer science
+building to upload the videos. Each required 5-6 minutes on that
+connection (~25MB/s).
