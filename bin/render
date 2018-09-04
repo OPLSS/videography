@@ -1,0 +1,39 @@
+#!/usr/bin/env ruby
+
+require 'mixlib/shellout'
+
+module OPLSS
+  module Video
+    class Base
+      def initialize
+      end
+
+      def render
+      end
+    end
+
+    class Session < Base
+      def initialize(rendered_path: '/dev/null', sequence_path: '/dev/null')
+        @rendered_path = rendered_path
+        @sequence_path = sequence_path
+      end
+
+      def render
+        renderer = Mixlib::ShellOut.new(
+          ['ffmpeg',
+           '-f concat',
+           '-safe 0',
+           "-i '#{@sequence_path}'",
+           '-c copy',
+           '-y',
+           "'#{@rendered_path}'"].join(' '),
+          live_stream: STDERR
+        )
+        renderer.run_command
+        renderer.exitstatus
+      end
+    end
+  end
+end
+
+OPLSS::Video::Session.new(sequence_path: ARGV[0], rendered_path: ARGV[1]).render

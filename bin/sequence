@@ -1,0 +1,267 @@
+#!/usr/bin/env ruby
+
+#
+module OPLSS
+  Sessions = {
+    '01.1' => [
+      '%<preamble>s',
+      Dir.glob(
+        '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session %<session_id>s*/*.MP4'
+      ).sort,
+      '%<postamble>s'
+    ],
+    '01.2' => [
+      '%<preamble>s',
+      Dir.glob(
+        '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 01.2*/*.MP4'
+      ).sort,
+      '%<postamble>s'
+    ],
+    '01.3' => [
+      '/home/self/Remote/nas01/universe/Media/Video/OPLSS/2018/title card, session 1.3, editors note.mp4',
+      Dir.glob(
+        '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 01.3*/*.MP4'
+      ).sort
+    ],
+    '01.4' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 01.4*/*.MP4'
+    ).sort,
+    '02.1' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 02.1*/*.MP4'
+    ).sort,
+    '02.2' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 02.2*/*.MP4'
+    ).sort,
+    '02.3' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 02.3*/*.MP4'
+    ).sort,
+    '03.1' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 03.1*/*.MP4'
+    ).sort,
+    '03.2' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 03.2*/*.MP4'
+    ).sort,
+    '03.3' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 03.3*/*.MP4'
+    ).sort,
+    '04.1' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 04.1*/*.MP4'
+    ).sort,
+    '04.2' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 04.2*/*.MP4'
+    ).sort,
+    '04.3' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 04.3*/*.MP4'
+    ).sort,
+    '05.1' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 05.1*/*.MP4'
+    ).sort,
+    '05.2' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 05.2*/*.MP4'
+    ).sort,
+    '06.1' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 06.1*/*.MP4'
+    ).sort,
+    '06.2' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 06.2*/*.MP4'
+    ).sort,
+    '06.3' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 06.3*/*.MP4'
+    ).sort,
+    '07.1' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 07.1*/*.MP4'
+    ).sort,
+    '07.2' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 07.2*/*.MP4'
+    ).sort,
+    '07.3' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 07.3*/*.MP4'
+    ).sort,
+    '08.1' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 08.1*/*.MP4'
+    ).sort,
+    '08.2' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 08.2*/*.MP4'
+    ).sort,
+    '08.3' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 08.3*/*.MP4'
+    ).sort,
+    '08.4' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 08.4*/*.MP4'
+    ).sort,
+    '09.1' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 09.1*/*.MP4'
+    ).sort,
+    '09.2' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 09.2*/*.MP4'
+    ).sort,
+    '09.3' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 09.3*/*.MP4'
+    ).sort,
+    '10.1' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 10.1*/*.MP4'
+    ).sort,
+    '10.2' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 10.2*/*.MP4'
+    ).sort,
+    '10.3' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 10.3*/*.MP4'
+    ).sort,
+    '11.1' => [
+      '/home/self/Remote/nas01/universe/Media/Video/OPLSS/2018/title card, session 11.1, editors note.mp4',
+      Dir.glob(
+        '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 11.1*/*.MP4'
+      ).sort
+    ].flatten,
+    '11.2' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 11.2*/*.MP4'
+    ).sort,
+    '11.3' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 11.3*/*.MP4'
+    ).sort,
+    '11.4' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 11.4*/*.MP4'
+    ).sort,
+    '12.1' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 12.1*/*.MP4'
+    ).sort,
+    '12.2' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 12.2*/*.MP4'
+    ).sort,
+    '12.3' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 12.3*/*.MP4'
+    ).sort,
+    '13.1' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 13.1*/*.MP4'
+    ).sort,
+    '13.2' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 13.2*/*.MP4'
+    ).sort,
+    '13.3' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 13.3*/*.MP4'
+    ).sort,
+    '14.1' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 14.1*/*.MP4'
+    ).sort,
+    '14.2' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 14.2*/*.MP4'
+    ).sort,
+    '14.3' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 14.3*/*.MP4'
+    ).sort,
+    '14.4' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 14.4*/*.MP4'
+    ).sort,
+    '15.1' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 15.1*/*.MP4'
+    ).sort,
+    '15.2' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 15.2*/*.MP4'
+    ).sort,
+    '15.3' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 15.3*/*.MP4'
+    ).sort,
+    '15.4' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 15.4*/*.MP4'
+    ).sort,
+    '16.1' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 16.1*/*.MP4'
+    ).sort,
+    '16.2' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 16.2*/*.MP4'
+    ).sort,
+    '16.3' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 16.3*/*.MP4'
+    ).sort,
+    '17.1' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 17.1*/*.MP4'
+    ).sort,
+    '17.2' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 17.2*/*.MP4'
+    ).sort,
+    '17.3' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 17.3*/*.MP4'
+    ).sort,
+    '17.4' => Dir.glob(
+      '/media/self/60c295ed-3133-4cc7-8307-dcd2699282da/Media/Video/OPLSS/2018/Session 17.4*/*.MP4'
+    ).sort
+  }.freeze
+end
+
+#
+module FFmpeg
+  module Concat
+    class SequenceFile
+      def initialize(session_id, sequence_paths)
+        @base_path = '/home/self/Remote/nas01/universe/Media/Video/OPLSS/2018'
+        @session_id = session_id
+        @sequence_paths = sequence_paths
+      end
+
+      def generate
+        require 'byebug' ; byebug #DEBUG#
+        STDOUT.puts(
+          "sequence, session #{@session_id}.txt",
+          @sequence_paths.map do |path|
+            inflate(path)
+          end.flatten.map do |path|
+            "file '#{path}'"
+          end
+        )
+        #DISABLED#          format(FFmpeg::Concat::Template, { session_id: session_id, session_files: sequence })
+      end
+
+      private
+
+      def copyright_graphics
+        File.join(@base_path, 'title card, copyright, logo middle center.mp4')
+      end
+
+      def main_graphics
+        File.join(@base_path, 'title card, main, logo middle center.mp4')
+      end
+
+      def inflate(path)
+        format(
+          path,
+          {
+            postamble: postamble,
+            preamble: preamble,
+            session_graphics: session_graphics,
+            session_id: @session_id,
+            sponsors_graphics: sponsors_graphics
+          }
+        )
+      end
+
+      def postamble
+        copyright_graphics
+      end
+
+      def preamble
+        [main_graphics, sponsors_graphics].join("\n")
+      end
+
+      def session_graphics
+        File.join(@base_path, 'title card, session %<session_id>s, logo bottom right.mp4')
+      end
+
+      def sponsors_graphics
+        File.join(@base_path, 'title card, sponsors, logo middle center.mp4')
+      end
+    end
+
+    Template = <<-TEMPLATE.freeze
+file '/home/self/Remote/nas01/universe/Media/Video/OPLSS/2018/title card, main, logo middle center.mp4'
+file '/home/self/Remote/nas01/universe/Media/Video/OPLSS/2018/title card, sponsors, logo bottom right.mp4'
+file '/home/self/Remote/nas01/universe/Media/Video/OPLSS/2018/title card, session %<session_id>s, logo bottom right.mp4'
+%<session_files>s
+file '/home/self/Remote/nas01/universe/Media/Video/OPLSS/2018/title card, copyright, logo middle center.mp4'
+    TEMPLATE
+  end
+end
+
+#
+OPLSS::Sessions.each do |session_id, sequence_paths|
+  FFmpeg::Concat::SequenceFile.new(session_id, sequence_paths).generate
+end
