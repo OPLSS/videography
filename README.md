@@ -263,5 +263,5 @@ See also YouTube's [resolution suggestions](https://support.google.com/youtube/a
 A 90-minute 1920x1080 video may consume 8GB or more of storage, and
 therefore requires substantial upstream bandwidth to upload. In 2018,
 the lead used a wired connection in the U of O's computer science
-building to upload the videos. Each required 5-6 minutes on that
-connection (~25MB/s).
+building to upload the videos. An 8GB file required about 7 minutes on
+that connection (20MB/s).
