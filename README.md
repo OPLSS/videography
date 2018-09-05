@@ -4,6 +4,14 @@ This document describes the equipment and procedures we use to record
 the Oregon Programming Languages Summer School sessions. It also
 describes how we publish the recordings.
 
+## A/V Personnel
+
+The OPLSS coordinator should designate a lead videographer and an
+assistant. The lead is responsible for all aspects of operating and
+maintaining the A/V equipment, as well as editing and publishing the
+recordings. The assistant should be familiar with this document in
+order to record a session if the lead is unavailable.
+
 ## A/V Equipment Inventory
 
 We use the following audio-visual equipment to record each OPLSS session:
@@ -19,6 +27,8 @@ We use the following audio-visual equipment to record each OPLSS session:
     * Apple Thunderbolt
   * laser pointer
 
+The videographers should supply computing hardware for video processing.
+
 ## Video Camera Features
 
 The video camera must support these features:
@@ -31,14 +41,6 @@ The video camera must support these features:
 
 If the camera records in MPEG-4 format, it _may_ stop recording after 30
 minutes. In this case, each 80-minute session will consume at least two files.
-
-## Lead and Assistant Videographers
-
-The OPLSS coordinator should designate a lead videographer and an
-assistant. The lead is responsible for all aspects of operating and
-maintaining the A/V equipment, as well as editing and publishing the
-recordings. The assistant should be familiar with this document in
-order to record a session if the lead is unavailable.
 
 ## Camera Operation Best Practices
 
@@ -99,6 +101,30 @@ If the camera automatically stops recording after 30 minutes, the
 operator will need to restart recording after it stops. Rather than
 wait for this to occur, choose a time after 28 minutes when the
 speaker pauses to manually stop and restart the recording.
+
+#### Camera framing and motion best practices
+
+The videographer should operate the camera in a way that maximizes
+both the speaker and the active content in the frame, while also
+minimizing camera motion. This as an art, as speakers vary in their
+lateral movement. Speakers who move frequently and unpredictably
+present the greatest challenge, sometimes requiring rapid panning.  To
+the greatest extent possible, pan and zoom strategically and
+anticipate the speaker's lateral moves.
+
+When the speaker is writing on the boards, the operator should include
+the speaker and the active board content in the frame at all
+times. The zoom level depends on two primary factors:
+
+  1. How size of the speaker's writing
+  2. How much horizontal space the speaker is using for active content
+
+Experienced lecturers use half of a board at a time and minimize
+lateral motion, but styles vary.
+
+When the speaker is projecting, attempt to establish a frame including
+the screen and at least the speaker's head. Speakers who move
+laterally require the most panning and zooming.
 
 #### Common problems and solutions
 
