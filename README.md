@@ -105,26 +105,31 @@ speaker pauses to manually stop and restart the recording.
 #### Camera framing and motion best practices
 
 The videographer should operate the camera in a way that maximizes
-both the speaker and the active content in the frame, while also
-minimizing camera motion. This as an art, as speakers vary in their
-lateral movement. Speakers who move frequently and unpredictably
-present the greatest challenge, sometimes requiring rapid panning.  To
-the greatest extent possible, pan and zoom strategically and
-anticipate the speaker's lateral moves.
+both the speaker and the relevant content in the frame, while also
+minimizing camera motion. This as an art, as speakers vary in how
+often and how far they move laterally. Speakers who move frequently
+and unpredictably present the greatest challenge, sometimes requiring
+rapid panning. To the greatest extent possible, pan and zoom
+strategically to anticipate the speaker's lateral moves.
 
 When the speaker is writing on the boards, the operator should include
-the speaker and the active board content in the frame at all
+the speaker and the relevant board content in the frame at all
 times. The zoom level depends on two primary factors:
 
   1. How size of the speaker's writing
-  2. How much horizontal space the speaker is using for active content
+  2. How much horizontal space the speaker is using for relevant content
 
-Experienced lecturers use half of a board at a time and minimize
-lateral motion, but styles vary.
+Experienced lecturers tend to use half of a board at a time and
+minimize lateral motion, which permits the videographer to establish a
+static frame slightly wider than the relevant content. The speaker can
+move a few steps away from the content and remain within the frame.
 
 When the speaker is projecting, attempt to establish a frame including
-the screen and at least the speaker's head. Speakers who move
-laterally require the most panning and zooming.
+the screen and at least the speaker's head. Most speakers will gesture
+at the screen and capturing those gestures is valuable. The zoom level
+will depend on each slide's legibility. If the speaker moves, the
+operator should use pan and zoom to balance the speaker and the screen
+in the frame.
 
 #### Common problems and solutions
 
