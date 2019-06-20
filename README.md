@@ -1,8 +1,10 @@
-# OPLSS Audio-Visual Tools
+# OPLSS Videography
 
 This document describes the equipment and procedures we use to record
 the Oregon Programming Languages Summer School sessions. It also
 describes how we publish the recordings.
+
+_The videographer authored this document for 2018 and is gradually updating it for 2019._
 
 ## A/V Personnel
 
