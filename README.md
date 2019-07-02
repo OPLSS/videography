@@ -1,10 +1,10 @@
 # OPLSS Videography
 
 This document describes the equipment and procedures we use to record
-the Oregon Programming Languages Summer School sessions. It also
-describes how we publish the recordings.
+the Oregon Programming Languages Summer School sessions and publish
+the recordings.
 
-_The videographer authored this document for 2018 and is gradually updating it for 2019._
+_The videographer authored this document in 2018 and is gradually updating it for 2019._
 
 ## A/V Personnel
 
@@ -12,161 +12,210 @@ The OPLSS coordinator should designate a lead videographer and an
 assistant. The lead is responsible for all aspects of operating and
 maintaining the A/V equipment, as well as editing and publishing the
 recordings. The assistant should be familiar with this document in
-order to record a session if the lead is unavailable.
+order to record sessions if the lead is unavailable.
 
 ## A/V Equipment Inventory
 
-We use the following audio-visual equipment to record each OPLSS session:
+We used the following audio-visual equipment to record OPLSS sessions:
 
-  * HD camcorder or digital SLR camera, plus its battery charger
-  * tripod
-  * wireless microphone _(which the speaker wears)_
+  * [Canon EOS 80D digital SLR camera]() kit -- body, lens, batteries,
+    charger -- borrowed from the university's media center
+  * at least three SD cards, each at least 128 GB capacity _(for
+    recording and storing videos)_
+  * [Fifine wireless microphone]() _(connected to the camera)_
+  * [Shure SLX-1 wireless microphone](), borrowed from the Knight Law A/V
+    department _(connected to the room's PA system)_
+  * [Manfrotto Compact Advanced tripod](https://www.manfrotto.us/compact-advanced-aluminium-tripod-with-3-way-head-black), also borrowed from the media center
   * headphones _(to monitor the camera's audio input)_
-  * a set of rechargeable AA and AAA batteries, plus a charger
+  * alkaline AA and AAA batteries _(for the microphone transmitters and receivers)_
   * power strip
-  * common HDMI video adapters
+  * HDMI video adapters:
 	* USB-C
     * Apple Thunderbolt
+    * Apple Mini-DisplayPort
   * laser pointer
 
-The videographers should supply computing hardware for video processing.
+The videographer should supply computing hardware for post-OPLSS video processing.
 
-## Video Camera Features
+### Device battery inventory
 
-The video camera must support these features:
+The equipment uses a variety of batteries. The videographer should
+maintain the spare supply in a way that anticipates failure and rapid
+battery replacement.
 
-  * zoom
-  * auto and manual focus
-  * white balance
-  * exposure compensation
-  * a popular video file format: MPEG-4, MOV, etc.
+Battery inventory:
 
-If the camera records in MPEG-4 format, it _may_ stop recording after 30
-minutes. In this case, each 80-minute session will consume at least two files.
+| Device                 | Battery Type |
+|------------------------|--------------|
+| EOS 80D                | rechargeable |
+| Fifine mic transmitter | AA           |
+| Fifine mic receiver    | AAA          |
+| Shure mic transmitter  | AA           |
+| Shure mic receiver     | AAA          |
 
-## Camera Operation Best Practices
+The mic transmitters come equipped with indicators of the remaining
+charge. They typically run at least three days before falling below
+50%, at which time they should be changed.
 
-This section summarizes best practices for operating the camera.
+The Fifine mic's receiver does not indicate battery charge and will
+fail without warning. It typically runs at least two days.
 
-### Pre-OPLSS rehearsal
+## OPLSS venue
 
-At least one week prior to the first OPLSS session, the camera
-operator should arrange a time with the coordinator to visit the rooms
-where OPLSS will take place and rehearse recording a session. This is
-vital to understanding each room's layout, lighting, and A/V control
-systems.
+OPLSS used room 175 in the Knight Law building, an auditorium that
+seats about one hundred. The room was equipped with a projector and
+public address system. A locked side room contained audio-visual
+equipment and served as storage for our valuables.  A touch-screen
+panel adjacent to the equipment room controlled the room's projector
+and PA system.
 
-In most years, we use the two large classrooms in the Knight Law
-building, rooms 110 and 175. Knight Law has a dedicated A/V staff
-person. Ensure that the coordinator invites this person to the
-rehearsal so you can ask questions. The coordinator should bring the
-A/V equipment (camera, microphone, and tripod).
+The room's acoustics absorbed the instructor's voice, especially when
+facing away from the audience. We therefore used a wireless microphone
+connected to the PA system. This entailed asking the instructors to
+wear two microphones and transmitters. Most complied, but several
+refused.
 
-The lead and assistant should do all of the following during the
-rehearsal session:
+The law school has dedicated A/V and IT staff who can assist with
+issues.
+
+## Pre-OPLSS rehearsal
+
+At least one week prior to the first OPLSS session, the videographer
+should arrange a time with the event coordinator to visit the room and
+rehearse recording a session. This is vital to understanding the
+room's layout, lighting, and A/V control systems.
+
+The coordinator invite the Knight Law A/V lead to the rehearsal. The
+coordinator should bring the A/V equipment (camera, microphone, and
+tripod).
+
+The videographer lead and assistant should do all of the following
+during the rehearsal session:
 
   * Mount the camera on its tripod
   * Connect the wireless microphone and headphones to the camera
   * Record someone speaking with the wireless microphone
-  * The wireless microphone *will* occasionally fail due to battery
-    exhaustion, accidental power-off, interference, and other
-    unexpected circumstances. Practice unplugging the microphone,
-    recording with the camera's built-in mic, and reconnecting the 
+  * Practice unplugging the camera microphone, recording with the
+    camera's built-in mic, replacing the battery, and reconnecting the
+    mic. This is necessary because the camera's microphone will
+    occasionally fail due to battery exhaustion, accidental power-off,
+    interference, and other unexpected circumstances.
+  * Understand how to use the PA system mic
   * Monitor the recording with headphones
-  * Test cycling the room's A/V controls. Connect a laptop to the
+  * Cycle the room's projector controls. Connect a laptop to the
     projector.
 
-### Recording each session
+### Preparing to record a session
 
 Arrive at the lecture room at least 15 minutes prior to each session's
 start time. Do all of the following during set-up:
 
-  * Mount the camera to its tripod
+  * Prepare the camera:
+    * Mount the camera to its tripod
+    * Power it on
+    * Verify the card's storage capacity
   * Insert a fully-charged battery and charge the depleted battery
-  * Set the zoom, focus, white balance, and exposure compensation
-  * Connect the wireless microphone and headphones. Power on the
-    transmitter and check its battery level. If below 50%, replace the
-    batteries.
+  * Set the zoom and focus
+  * Connect the wireless microphone and headphones to the
+    camera. Power on the transmitter and check its battery level. If
+    below 50%, replace the batteries.
+  * Power on the mic transmitters and the room's A/V system
+  * Verify the camera mic's connection to its receiver -- when
+    successful, the receiver's status light will glow solid orange.
+  * Verify that the PA mic is broadcasting through the room's PA
+    system. If the speaker plans to project and needs a laser pointer,
+    place it on the podium.
+  * Assist the instructor with fitting the lapel mics
+  * Stage a pair of AAA batteries by the camera in case the receiver
+    fails mid-session
+  * Stage a fully-charged camera battery by the camera
+  * Using the headphones, verify that the instructor is audible via
+    the camera's mic
 
-Hand the transmitter to the speaker. If this is the speaker's first
-session, offer the following advice:
+### Recording a session
 
-  * The microphone is connected to the camera only, not the room's PA
-    system. Speak at a normal lecture volume.
-  * Attach the lapel clip to clothing between the neck and middle of the chest
-  * Place the transmitter in a pocket or suspend from the belt clip
-  * Please repeat questions asked by the audience
+  * Start recording when the instructor begins speaking, ideally
+    slightly before
+  * Record events that occur during the session:
+    * The length of each video file. See below for notes about the
+      camera's 30-minute video length limit.
+    * Camera or microphone problems
+    * Any other events relevant to post-OPLSS video processing
 
-If the speaker uses the overhead projector, offer the laser pointer.
+#### Framing, pan, and zoom guidelines
 
-If the camera automatically stops recording after 30 minutes, the
-operator will need to restart recording after it stops. Rather than
-wait for this to occur, choose a time after 28 minutes when the
-speaker pauses to manually stop and restart the recording.
+The videographer should operate the camera in a way that maximizes the
+instructor, white board writing, and projected content in the frame,
+while also minimizing camera motion. This as an art, as instructors
+vary in how often and how far they move laterally. Instructors who
+move frequently and unpredictably present the greatest challenge,
+sometimes requiring rapid panning. To the greatest extent possible,
+pan and zoom strategically to anticipate the instructor's lateral
+moves.
 
-#### Camera framing and motion best practices
-
-The videographer should operate the camera in a way that maximizes
-both the speaker and the relevant content in the frame, while also
-minimizing camera motion. This as an art, as speakers vary in how
-often and how far they move laterally. Speakers who move frequently
-and unpredictably present the greatest challenge, sometimes requiring
-rapid panning. To the greatest extent possible, pan and zoom
-strategically to anticipate the speaker's lateral moves.
-
-When the speaker is writing on the boards, the operator should include
-the speaker and the relevant board content in the frame at all
+When the instructor is writing on a board, the operator should include
+the instructor and the relevant board content in the frame at all
 times. The zoom level depends on two primary factors:
 
-  1. How size of the speaker's writing
-  2. How much horizontal space the speaker is using for relevant content
+  1. How size of the instructor's writing
+  2. How much horizontal space the instructor is using for relevant content
 
 Experienced lecturers tend to use half of a board at a time and
 minimize lateral motion, which permits the videographer to establish a
-static frame slightly wider than the relevant content. The speaker can
+static frame slightly wider than the relevant content. The instructor can
 move a few steps away from the content and remain within the frame.
 
-When the speaker is projecting, attempt to establish a frame including
-the screen and at least the speaker's head. Most speakers will gesture
+When the instructor is projecting, attempt to establish a frame including
+the screen and at least the instructor's head. Most instructors will gesture
 at the screen and capturing those gestures is valuable. The zoom level
-will depend on each slide's legibility. If the speaker moves, the
-operator should use pan and zoom to balance the speaker and the screen
+will depend on each slide's legibility. If the instructor moves, the
+operator should use pan and zoom to balance the instructor and the screen
 in the frame.
+
+#### 30-minute video file limit
+
+The EOS 80D stops recording after 30 minutes. The videographer must
+monitor the camera's timer and attempt to stop and restart the
+recording during a pause, ideally at a topical boundary, in order to
+provide a smooth transition for viewers. Cycle the recording any time
+after 25 minutes.
 
 #### Common problems and solutions
 
-When the wireless microphone fails due to battery exhaustion and other
-unexpected circumstances, immediately unplug it and continue recording
-with the camera's built-in mic. If the batteries in the mic's receiver
-exhaust themselves, replace them as quickly and quietly as possible,
-then reconnect the mic. If the problem lies with the transmitter, *do
-not* stop the speaker: instead, address the issue after the session.
+The camera microphone's receiver offers no battery charge
+indicator. It therefore fails without warning. When it does, the
+status light will flash green. One pair of batteries typically lasts
+about two days.
+
+When the batteries exhaust themselves, immediately unplug it and
+continue recording with the camera's built-in mic. Replace them as
+quickly and quietly as possible, then reconnect the mic. If the
+problem lies with the transmitter, *do not* stop the instructor:
+instead, address the issue after the session.
 
 ### Maintaining session metadata
 
-The lead should maintain a table of metadata about the sessions,
-including the following information:
+The videographer should maintain metadata about the sessions, namely:
 
-  * the session's absolute count
+  * a count of the total number of sessions
   * a session identifier in `<day>.<session number>` format
-  * the speaker's name and affiliation
+  * the instructor's name and affiliation
   * the lecture's topic
   * the session's date, start time, and end time
   * the card ID on which the session was recorded
+  * the length of each video file, in minutes
   * notes about the recording: audio or video problems, etc.
 
 ### Securely storing A/V equipment
 
-We store the the A/V equipment in a secure location when the lead
-videographer is not present.  In 2018 at the Knight Law building, we
-used the locked equipment closets connected to the lecture rooms. The
-coordinator was responsible for managing the key. If this is the case
-in future years, the lead should acquire the key from the coordinator
-as early as possible before a session to retrieve the equipment.
+We locked the A/V equipment in the venue's equipment room. The OPLSS
+coordinator was responsible for managing the key. The lead should
+acquire the key from the coordinator as early as possible before a
+session to retrieve the equipment.
 
 ## Video Publishing Procedures
 
-We publish the videos to two locations:
+We published the videos to two locations:
 
   * The [University of Oregon's OPLSS site](https://www.cs.uoregon.edu/research/summerschool/summer18/topics.php)
   * The [`OPLSS` YouTube channel](https://www.youtube.com/channel/UCDe6N9R7U-RYWA57wzJQ2SQ)
@@ -203,7 +252,7 @@ The unique cards are:
   * session title
   * editor's notes
 
-The session cards state the topic, the speaker, the speaker's
+The session cards state the topic, the instructor, the instructor's
 affiliation, and the date. For recordings with audio or video
 problems, the lead videographer created a card stating editor's notes.
 
