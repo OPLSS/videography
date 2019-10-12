@@ -17,12 +17,12 @@ order to record sessions if the lead is unavailable.
 
 We used the following audio-visual equipment to record OPLSS sessions:
 
-  * [Canon EOS 80D digital SLR camera]() kit -- body, lens, batteries,
+  * [Canon EOS 80D digital SLR camera](https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/eos-dslr-and-mirrorless-cameras/dslr/eos-80d) kit -- body, lens, batteries,
     charger -- borrowed from the university's media center
   * at least three SD cards, each at least 128 GB capacity _(for
     recording and storing videos)_
-  * [Fifine wireless microphone]() _(connected to the camera)_
-  * [Shure SLX-1 wireless microphone](), borrowed from the Knight Law A/V
+  * [Fifine wireless microphone](https://fifinemicrophone.com/collections/wireless-systems/products/lavalier-microphone-with-head-worn-unit-k037b) _(connected to the camera)_
+  * [Shure SLX-1 wireless microphone](https://www.shure.com/en-US/products/wireless-systems/slx_wireless/slx1), borrowed from the Knight Law A/V
     department _(connected to the room's PA system)_
   * [Manfrotto Compact Advanced tripod](https://www.manfrotto.us/compact-advanced-aluminium-tripod-with-3-way-head-black), also borrowed from the media center
   * headphones _(to monitor the camera's audio input)_
@@ -337,7 +337,7 @@ later, the transcoding process compressed the raw videos.
 
 We recommend structuring the target storage file system as follows:
 
-`
+````
 assemblies/
   DD/
 titles/
@@ -348,7 +348,7 @@ segments/
     SS/
 sequences/
     DD/
-`
+````
 
 Definitions:
 
