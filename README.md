@@ -347,14 +347,14 @@ titles/
     sponsors.*
   sessions/
     DD/
-	  SS.*
+      SS.*
 segments/
   DD/
     SS/
-	  GG.mp4
+      GG.mp4
 sequences/
     DD/
-	  SS.sequence
+      SS.sequence
 ````
 
 Definitions:
