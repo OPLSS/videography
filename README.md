@@ -373,14 +373,14 @@ Definitions:
 
 #### FFmpeg notes
 
-`ffmpeg` is a powerful but notoriously complex tool. The videographer
-needed considerable trial and error to arrive at the options that
-follows.
+[`FFmpeg`](https://ffmpeg.org/) is a powerful but notoriously complex
+tool. The videographer needed considerable trial and error to arrive
+at the options that follow.
 
 Critical options:
 
-  * When transcoding videos from the camera's raw format to smaller
-    files, use these options:
+  * To transcode videos from the camera's raw format to smaller files,
+    use these options:
 	
      > -crf 30 -pix_fmt yuv420p -r 30 -vf scale=1280x720 -video_track_timescale 30k
 
@@ -398,8 +398,8 @@ Critical options:
     seconds` as an input option to stop encoding after `seconds`. Use
     these options to excise unwanted content from a segment.
 
-  * When animating title cards, use these _input_ options (i.e.,
-    options that appear _before_ the `-i` option):
+  * To animate title cards, use these _input_ options (i.e., options
+    that appear _before_ the `-i` option):
   
     > -f lavfi -i anullsrc=r=48000:cl=mono -loop 1
 
@@ -420,6 +420,29 @@ Critical options:
 	 * `-vf scale=1280x720` _same as transcoding_
 	 * `-video_track_timescale 30k` _same as transcoding_
 
+  * To generate the sequence files, create a text file listing the
+    constituents in the order by which to concatenate them, in this
+    format:
+	
+````
+file 'PATH'
+.
+.
+.
+````
+
+    See the [`concat` filter documentation](https://trac.ffmpeg.org/wiki/Concatenate)
+	for details.
+
+  * To assemble the final videos, use these options:
+  
+  > -safe 0 -f concat -i /sequence file/ -c copy /assembled file/.mp4
+  
+  * `-safe 0`: suppress errors about unsafe file paths
+  * `-f concat`: specify the filter _(concatenation)_
+  * `-i /sequence file/`: specify the input file _(sequence file path)_
+  * `-c copy`: specify the output codec _(copy)_
+
 #### Processing pipeline
 
 The videographer processed the videos in the following sequence:
@@ -438,7 +461,7 @@ The videographer processed the videos in the following sequence:
 
 #### Uploading to YouTube
 
-We published edited session videos to the [`OPLSS` YouTube
+We published assembled session videos to the [OPLSS YouTube
 channel](https://www.youtube.com/channel/UCDe6N9R7U-RYWA57wzJQ2SQ). The
 videographer needs a Google account and "manager" permissions on the
 `OPLSS` brand account. See YouTube's [brand account
