@@ -1,8 +1,9 @@
 # OPLSS Videography
 
 This document describes the equipment and procedures we use to record
-the Oregon Programming Languages Summer School sessions and publish
-the recordings.
+the [Oregon Programming Languages Summer
+School](https://www.cs.uoregon.edu/research/summerschool/) sessions
+and publish the recordings.
 
 ## A/V Personnel
 
@@ -33,7 +34,8 @@ We used the following audio-visual equipment to record OPLSS sessions:
     * Apple Mini-DisplayPort
   * laser pointer
 
-The videographer should supply computing hardware for post-OPLSS video processing.
+The videographer should supply computing hardware for post-OPLSS video
+processing.
 
 ### Device battery inventory
 
@@ -221,11 +223,10 @@ We published the videos to two locations:
 ### Publishing to the OPLSS site
 
 The OPLSS coordinator is the only person with credentials on the
-university's OPLSS site. Historically, the coordinator uploads raw
-video files every evening. The lead videographer should give the day's
-data card to the coordinator at the conclusion of each day's sessions
-and retrieve the card from the coordinator before recording the next
-day.
+university's OPLSS site. Historically, the coordinator uploaded raw
+video files every evening. The videographer should give the day's data
+card to the coordinator at the conclusion of each day's sessions and
+retrieve the card from the coordinator before recording the next day.
 
 ### Publishing to YouTube
 
@@ -234,10 +235,10 @@ multiple software components and a considerable amount of manual effort.
 
 #### Creating title graphics
 
-The lead videographer should create title graphics to accompany the session
-videos.  We refer to them here as "title cards" or "cards." We created
-one set of cards that appear in every video, along with a set unique
-to each session.
+The videographer should create title graphics to accompany the session
+videos.  We refer to them here as _title cards_ or _cards_. We created
+one set of cards that appear in every video, along with a set of cards
+unique to each session.
 
 The common cards are:
 
@@ -253,10 +254,12 @@ The unique cards are:
 Each session card stated the topic, instructor, instructor's
 affiliation, lecture date, and session number on that date.
 
-In 2019, the videographer used [GIMP](https://gimp.org/) to create the
-cards and `xcf2png` from
-[xcftools](http://henning.makholm.net/xcftools/) to convert GIMP's XCF
-files to PNG format.
+The main title, session, and sponsor cards appeared before the session
+video. The copyright card appeared after the video.
+
+The videographer used [GIMP](https://gimp.org/) to create the cards
+and `xcf2png` from [xcftools](http://henning.makholm.net/xcftools/) to
+convert GIMP's XCF files to PNG format.
 
 The OPLSS font is named [_PT Mono
 Bold_](https://www.1001fonts.com/pt-mono-font.html#character-map-bold). "PT"
@@ -275,23 +278,24 @@ See the [session schedule](configuration/schedule.csv).
 
 #### Generating the final videos
 
-In 2019, the videographer used [`FFmpeg`](https://ffmpeg.org/) and a
-set of custom tools to combine the raw video files and title graphics
-into files suitable for uploading to YouTube. The custom tools reside
-in this repository's `bin` directory. They're written in Ruby and
-require at least Ruby 2.4.
+The videographer used [`FFmpeg`](https://ffmpeg.org/) and a set of
+custom tools to combine the raw video files and title graphics into
+files suitable for uploading to YouTube. The custom tools reside in
+this repository's `bin` directory. They're written in Ruby and require
+at least Ruby 2.4.
 
-After generating the graphics, the videographer used FFmpeg to convert
-them to MPEG-4 videos, then concatenated each session's video files.
+After generating the title cards, the videographer used FFmpeg to
+convert them to MPEG-4 videos, then concatenated the card videos with
+each session's video files.
 
 The video elements appear in this sequence. The parenthesized number
-is the element's time length:
+is the element's running time:
 
-  * main title card (6s)
-  * session title card (6s)
-  * sponsors card (6s)
-  * session video segments (~90m)
-  * copyright card (6s)
+  * main title card _(6s)_
+  * session title card _(6s)_
+  * sponsors card _(6s)_
+  * session video segments _(~90m)_
+  * copyright card _(6s)_
 
 As noted earlier, the main, sponsors, and copyright cards were the
 same for all videos, whereas the session titles and recordings were
@@ -318,18 +322,18 @@ pipeline.
 
 #### Storage considerations
 
-The camera stores raw video files in MPEG format on an SD card. This
-document refers to this as _source storage_ and the files as _raw
-videos_ and _source videos_. These files typically range between 2 and
-4 GB in size.
+The camera stored raw video files in MPEG-4 format on an SD card. This
+document refers to the SD card as _source storage_ and the files as
+_raw videos_ or _source videos_. These files typically range between 2
+and 4 GB in size.
 
 In addition to the SD cards, the videographer used a high-capacity
-hard disk to store processed videos and title cards. This document
-refers to this device as _target storage_.
+portable hard disk to store processed videos and title cards. This
+document refers to this device as _target storage_.
 
 Due to the large file sizes, the videographer first transcoded the
 source videos to target storage. Among other transformations described
-later, the transcoding process compresses the raw videos.
+later, the transcoding process compressed the raw videos.
 
 We recommend structuring the target storage file system as follows:
 
@@ -348,19 +352,24 @@ sequences/
 
 Definitions:
 
-  * `assemblies` contains the fully-assembled video files
-  * `titles` contains the title card static graphics and animated video files
-  * `segments` contains the session segment files after transcoding from source storage
-  * `sequences` contains the text-formatted sequence files that FFmpeg
-    reads to assemble a final video from its constituent videos
+  * `assemblies` contained the fully-assembled video files
+  * `titles` contained the title card static graphics and animated
+    video files
+  * `segments` contained the session segment files after transcoding
+    from source storage
+  * `sequences` contained the text-formatted sequence files that
+    FFmpeg reads to assemble a final video from its constituent videos
     (animated title cards and session segments)
-  * `DD` is the zero-padded day number
-  * `SS` is the zero-padded session number on a day
+  * `DD` was the zero-padded day number
+  * `SS` was the zero-padded session number on a given day
 
 #### FFmpeg notes
 
-`ffmpeg` is a powerful but notoriously complex tool. Considerable
-trial and error revealed these critical options:
+`ffmpeg` is a powerful but notoriously complex tool. The videographer
+needed considerable trial and error to arrive at the options that
+follows.
+
+Critical options:
 
   * When transcoding videos from the camera's raw format to smaller
     files, use these options:
@@ -369,44 +378,62 @@ trial and error revealed these critical options:
 
      * `-crf 30` compresses the resulting video
      * `-pix_fmt yuv420p` specifies a pixel format
- 	 * `-r 30` fixes the frame rate
-	 * `-vf scale=1280x720` fixes the resolution
-	 * `-video_track_timescale 30k` fixes the timebase. The argument
-       **must** match the animated title card's -- if not, the segment
-       videos and cards will play at different rates
+ 	 * `-r 30` defines the frame rate _(30/second)_
+	 * `-vf scale=1280x720` defines the resolution _(1280x720)_
+	 * `-video_track_timescale 30k` defines the "clock tick" timebase
+       _(30k ticks/second)_. The argument **must** match the animated
+       title card's -- if not, the segment videos and cards will play
+       at different rates
 
   * Specify `-ss h:m:s` as an input option to skip the first
     `hours:minutes:seconds` of the video. Similarly, specify `-t
-    seconds` as an input option to stop encoding after
-    `seconds`. These options are useful to excise unwanted sections
-    from a segment.
+    seconds` as an input option to stop encoding after `seconds`. Use
+    these options to excise unwanted content from a segment.
 
-  * When animating title cards, use these _input_ options:
+  * When animating title cards, use these _input_ options (i.e.,
+    options that appear _before_ the `-i` option):
   
     > -f lavfi -i anullsrc=r=48000:cl=mono -loop 1
 
-	* `-f lavfi` specifies the input filter
+	* `-f lavfi` specifies the input filter _(`lavfi`)_
 	* `-i anullsrc=r=48000:cl=mono` inserts a silent audio track
-	* `-loop 1` loops the image as a video
+	* `-loop 1` loops the image as a video _(1 loop per second)_
 
-  * Likewise, use these _output_ options:
+  * Likewise, use these _output_ options (i.e., the options that
+    appear _after_ the `-i` option):
 
     > -crf 30 -pix_fmt yuv420p -r 30 -t 6 -vcodec libx264 -vf scale=1280x720 -video_track_timescale 30k
 
-     * `-crf 30` *same as transcoding*
-     * `-pix_fmt yuv420p` *same as transcoding*
- 	 * `-r 30` *same as transcoding*
-     * `-t 6` specifies the running time in seconds
-	 * `-vcodec libx264` specifies the video codec
-	 * `-vf scale=1280x720` *same as transcoding*
-	 * `-video_track_timescale 30k` *same as transcoding*
+     * `-crf 30` _same as transcoding_
+     * `-pix_fmt yuv420p` _same as transcoding_
+ 	 * `-r 30` _same as transcoding_
+     * `-t 6` specifies the running time _(6 seconds)_
+	 * `-vcodec libx264` specifies the video codec _([H.264](https://en.wikipedia.org/wiki/Advanced_Video_Coding))_
+	 * `-vf scale=1280x720` _same as transcoding_
+	 * `-video_track_timescale 30k` _same as transcoding_
+
+#### Processing pipeline
+
+The videographer processed the videos in the following sequence:
+
+  * Create an inventory:
+	* Sessions, speakers, and topics
+    * Raw video files and how they map to sessions
+  * Generate all of the title cards and convert them to MPEG-4 videos
+  * For each day:
+	* For each session:
+	  * Transcode the raw video files from source storage to target
+        storage
+      * Generate an FFmpeg sequence file
+      * Concatenate all of the session's constituent videos
+  * Upload the videos to YouTube
 
 #### Uploading to YouTube
 
 We published edited session videos to the [`OPLSS` YouTube
 channel](https://www.youtube.com/channel/UCDe6N9R7U-RYWA57wzJQ2SQ). The
-lead needs a Google account and "manager" permissions on the `OPLSS`
-brand account. See YouTube's [brand account
+videographer needs a Google account and "manager" permissions on the
+`OPLSS` brand account. See YouTube's [brand account
 documentation](https://support.google.com/accounts/answer/7001996?co=GENIE.Platform%3DDesktop&hl=en).
 
 YouTube recommends these [encoding
@@ -425,8 +452,8 @@ guidelines](https://support.google.com/youtube/answer/1722171?hl=en):
 
 See also YouTube's [resolution suggestions](https://support.google.com/youtube/answer/6375112).
 
-A 90-minute 1920x1080 video may consume 8GB or more of storage, and
-therefore requires substantial upstream bandwidth to upload. In 2018,
-the lead used a wired connection in the U of O's computer science
+A raw 90-minute 1920x1080 video may consume 8GB or more of storage,
+and therefore requires substantial upstream bandwidth to upload. The
+videographer used a wired connection in the U of O's computer science
 building to upload the videos. An 8GB file required about 7 minutes on
 that connection (20MB/s).
