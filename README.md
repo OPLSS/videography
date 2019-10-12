@@ -337,25 +337,23 @@ later, the transcoding process compressed the raw videos.
 
 We recommend structuring the target storage file system as follows:
 
-````
-assemblies/
-  DD/
-    SS.mp4
-titles/
-    copyright.*
-    main.*
-    sponsors.*
-  sessions/
-    DD/
-      SS.*
-segments/
-  DD/
-    SS/
-      GG.mp4
-sequences/
-    DD/
-      SS.sequence
-````
+        assemblies/
+          DD/
+            SS.mp4
+        titles/
+            copyright.*
+            main.*
+            sponsors.*
+          sessions/
+            DD/
+              SS.*
+        segments/
+          DD/
+            SS/
+              GG.mp4
+        sequences/
+            DD/
+              SS.sequence
 
 Definitions:
 
@@ -373,11 +371,11 @@ Definitions:
 
 #### FFmpeg notes
 
-[`FFmpeg`](https://ffmpeg.org/) is a powerful but notoriously complex
+[FFmpeg](https://ffmpeg.org/) is a powerful but notoriously complex
 tool. The videographer needed considerable trial and error to arrive
 at the options that follow.
 
-Critical options:
+Video processing invocations:
 
   * To transcode videos from the camera's raw format to smaller files,
     use these options:
@@ -424,12 +422,10 @@ Critical options:
     constituents in the order by which to concatenate them, in this
     format:
 	
-````
-file 'PATH'
-.
-.
-.
-````
+        file 'PATH'
+        .
+        .
+        .
 
     See the [`concat` filter documentation](https://trac.ffmpeg.org/wiki/Concatenate)
 	for details.
