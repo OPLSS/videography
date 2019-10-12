@@ -340,14 +340,21 @@ We recommend structuring the target storage file system as follows:
 ````
 assemblies/
   DD/
+    SS.mp4
 titles/
+    copyright.*
+    main.*
+    sponsors.*
   sessions/
     DD/
+	  SS.*
 segments/
   DD/
     SS/
+	  GG.mp4
 sequences/
     DD/
+	  SS.sequence
 ````
 
 Definitions:
@@ -361,6 +368,7 @@ Definitions:
     FFmpeg reads to assemble a final video from its constituent videos
     (animated title cards and session segments)
   * `DD` was the zero-padded day number
+  * `GG` was the zero-padded segment number in a given session
   * `SS` was the zero-padded session number on a given day
 
 #### FFmpeg notes
@@ -419,7 +427,7 @@ The videographer processed the videos in the following sequence:
   * Create an inventory:
 	* Sessions, speakers, and topics
     * Raw video files and how they map to sessions
-  * Generate all of the title cards and convert them to MPEG-4 videos
+  * Generate all of the title cards and animate them as MPEG-4 videos
   * For each day:
 	* For each session:
 	  * Transcode the raw video files from source storage to target
