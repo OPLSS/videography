@@ -1,0 +1,53 @@
+#!/usr/bin/env ruby
+
+require 'fileutils'
+require 'optparse'
+
+#
+module OPLSS
+  #
+  module Videography
+    #
+    class XCFFile
+      def initialize(xcf_path, debug: false)
+        @debug    = debug
+        @xcf_path = xcf_path
+      end
+
+      #
+      def debug?
+        @debug == true
+      end
+
+      #
+      def event(message)
+        STDERR.puts(message.gsub(/^/, '# '))
+      end
+
+      #
+      def to_png
+        parent_path  = File.dirname(@xcf_path)
+        png_file     = File.basename(@xcf_path, '.*') + '.png'
+        png_path     = File.join(parent_path, png_file)
+        command      = "xcf2png -o '#{png_path}' '#{@xcf_path}'"
+        event(command)
+        %x{#{command}} unless debug?
+      end
+    end
+  end
+end
+
+# Parse command line options
+options = {}
+OptionParser.new do |opts|
+  opts.banner = "Usage: xcf_to_png [--debug] <xcf paths>"
+  opts.on("--debug") do |option|
+    options[:debug] = option
+  end
+end.parse!
+
+# Iterate over files specified on the command line, converting them
+# from XCF to PNG
+ARGV.each do |xcf_path|
+  OPLSS::Videography::XCFFile.new(xcf_path, debug: options[:debug]).to_png
+end

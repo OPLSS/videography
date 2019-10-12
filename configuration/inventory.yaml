@@ -1,0 +1,1201 @@
+---
+speakers:
+  ahmed:
+    affiliation: Northeastern University
+    fullname: &ahmed_fullname Amal Ahmed
+    givenname: &ahmed_givenname Amal
+    surname: &ahmed_surname Ahmed
+    topic: &ahmed_topic Secure Compilation
+  gordon:
+    affiliation: Microsoft Research
+    fullname: &gordon_fullname Andrew Gordon
+    givenname: Andrew
+    surname: Gordon
+    topic: &gordon_topic Empowering Spreadsheet Users With Probabilistic Programming
+  harper:
+    affiliation: Carnegie Mellon University
+    fullname: &harper_fullname Robert Harper
+    givenname: Robert
+    surname: Harper
+    topic: &harper_topic Practical Foundations For Programming Languages
+  henglein:
+    affiliation: Deon Digital AG
+    fullname: &henglein_fullname Fritz Henglein
+    givenname: Fritz
+    surname: Henglein
+    topic: &henglein_topic Smart Declarative Contracts
+  hoffmann:
+    affiliation: Carnegie Mellon University
+    fullname: &hoffmann_fullname Hoffmann Jon
+    givenname: Jan
+    surname: Hoffmann
+    topic: &hoffmann_topic Resource Analysis
+  leino:
+    affiliation: Amazon Web Services
+    fullname: &leino_fullname Rustan Leino
+    givenname: Rustan
+    surname: Leino
+    topic: &leino_topic Writing Verified Software For Production
+  myers:
+    affiliation: Cornell University
+    fullname: &myers_fullname Andrew Myers
+    givenname: Andrew
+    surname: Myers
+    topic: &myers_topic Security-Typed Languages
+  pfenning:
+    affiliation: Carnegie Mellon University
+    fullname: &pfenning_fullname Frank Pfenning
+    givenname: Frank
+    surname: Pfenning
+    topic: &pfenning_topic Session-Typed Concurrent Programming
+  silva:
+    affiliation: University College London
+    fullname: &silva_fullname Alexandra Silva
+    givenname: Alexandra
+    surname: Silva
+    topic: &silva_topic Coalgebraic Semantics
+  staton:
+    affiliation: University of Oxford
+    fullname: &staton_fullname 
+    givenname: Sam
+    surname: Staton
+    topic: &station_topic "Probabilistic Programming: Bayesian Non-Parametrics and Semantics"
+  swamy:
+    affiliation: Microsoft Research
+    fullname: &swamy_fullname Nikhil Swamy
+    givenname: Nikhil
+    surname: Swamy
+    topic: &swamy_topic Verifying Low-level Code for Security and Correctness Properties using F*
+videos:
+  common:
+    copyright: &copyright_title_card "common/title card, copyright.mp4"
+    main: &main_title_card "common/title card, main.mp4"
+days:
+  1:
+    date: 2019-06-17
+    sessions:
+      1:
+        speaker: *pfenning_fullname
+        topic: *pfenning_topic
+        videos:
+          - path: *title_card_main
+          - path: "session,01-1/title card, session 01-1.mp4"
+          # Remove first 40s
+          - path: session,01-1/segment,1.mp4
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8784.MP4
+            # Remove last ~20s
+          - path: session,01-1/segment,2.mp4
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8785.MP4
+          # Remove first 4m8s
+          - path: session,01-1/segment,3.mp4
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8786.MP4
+          - path: session,01-1/segment,4.mp4
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8787.MP4
+          - path: session,01-1/segment,5.mp4
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8788.MP4
+          - path: session,01-1/segment,6.mp4
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8789.MP4
+          - path: session,01-1/segment,7.mp4
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8790.MP4
+          - path: *copyright_title_card
+      2:
+        speaker: *silva_fullname
+        videos:
+          - path: *main_title_card
+          - path: "session,01-2/title card, session 01-2.mp4"
+          - path: session,01-2/segment,1.mp4
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8792.MP4
+          - path: session,01-2/segment,2.mp4
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8793.MP4
+          - path: session,01-2/segment,3.mp4
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8794.MP4
+          - path: session,01-2/segment,4.mp4
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8795.MP4
+          - path: session,01-2/segment,5.mp4
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8796.MP4
+          - path: session,01-2/segment,6.mp4
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8797.MP4
+          - path: *copyright_title_card
+      3:
+        speaker: *pfenning_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,01-3/title card, session.mp4"
+          - path: "session,01-3/segment,1.mp4"
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8798.MP4
+          - path: "session,01-3/segment,2.mp4"
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8799.MP4
+          - path: "session,01-3/segment,3.mp4"
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8801.MP4
+          - path: "common/title card, copyright.mp4"
+      4:
+        speaker: *silva_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,01-4/title card, session.mp4"
+          - path: "session,01-4/segment,1.mp4"
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8802.MP4
+          - path: "session,01-4/segment,2.mp4"
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8803.MP4
+          - path: "session,01-4/segment,3.mp4"
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8804.MP4
+          - path: "session,01-4/segment,4.mp4"
+            raw:
+              card: 1
+              path: DCIM/100CANON/MVI_8805.MP4
+          - path: "common/title card, copyright.mp4"
+  2:
+    date: 2019-06-18
+    sessions:
+      1:
+        speaker: *myers_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,02-1/title card, session.mp4"
+          - path: session,02-1/segment,1.mp4
+            raw:
+              card: 1
+              path: MVI_8806.MP4
+          - path: session,02-1/segment,2.mp4
+            raw:
+              card: 1
+              path: MVI_8807.MP4
+          - path: session,02-1/segment,3.mp4
+            raw:
+              card: 1
+              path: MVI_8808.MP4
+          - path: session,02-1/segment,4.mp4
+            raw:
+              card: 2
+              path: MVI_8809.MP4
+          - path: "common/title card, copyright.mp4"
+      2:
+        speaker: *pfenning_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,02-2/title card, session.mp4"
+          - path: session,02-2/segment,1.mp4
+            raw:
+              card: 2
+              path: MVI_8810.MP4
+          - path: session,02-2/segment,2.mp4
+            raw:
+              card: 2
+              path: MVI_8811.MP4
+          - path: session,02-2/segment,3.mp4
+            raw:
+              card: 2
+              path: MVI_8812.MP4
+          - path: "common/title card, copyright.mp4"
+      3:
+        speaker: *myers_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,02-3/title card, session.mp4"
+          - path: session,02-3/segment,1.mp4
+            raw:
+              card: 2
+              path: MVI_8813.MP4
+          - path: session,02-3/segment,2.mp4
+            raw:
+              card: 2
+              path: MVI_8814.MP4
+          - path: session,02-3/segment,3.mp4
+            raw:
+              card: 2
+              path: MVI_8815.MP4
+          - path: "common/title card, copyright.mp4"
+  3:
+    date: 2019-06-19
+    sessions:
+      1:
+        speaker: *pfenning_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,03-1/title card, session.mp4"
+          - path: session,03-1/segment,1.mp4
+            raw:
+              card: 2
+              path: MVI_8816.MP4
+          - path: session,03-1/segment,2.mp4
+            raw:
+              card: 2
+              path: MVI_8817.MP4
+          - path: session,03-1/segment,3.mp4
+            raw:
+              card: 2
+              path: MVI_8818.MP4
+          - path: "common/title card, copyright.mp4"
+      2:
+        speaker: *harper_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,03-2/title card, session.mp4"
+          - path: session,03-2/segment,1.mp4
+            raw:
+              card: 2
+              path: MVI_8819.MP4
+          - path: session,03-2/segment,2.mp4
+            raw:
+              card: 2
+              path: MVI_8820.MP4
+            # remove first 23s
+          - path: session,03-2/segment,3.mp4
+            raw:
+              card: 2
+              path: MVI_8821.MP4
+          - path: session,03-2/segment,4.mp4
+            raw:
+              card: 2
+              path: MVI_8822.MP4
+          - path: "common/title card, copyright.mp4"
+      3:
+        speaker: *myers_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,03-3/title card, session.mp4"
+          - path: session,03-3/segment,1.mp4
+            raw:
+              card: 2
+              path: MVI_8823.MP4
+          - path: session,03-3/segment,2.mp4
+            raw:
+              card: 2
+              path: MVI_8824.MP4
+          - path: session,03-3/segment,3.mp4
+            raw:
+              card: 2
+              path: MVI_8825.MP4
+          - path: session,03-3/segment,4.mp4
+            raw:
+              card: 2
+              path: MVI_8826.MP4
+          - path: "common/title card, copyright.mp4"
+      4:
+        speaker: *silva_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,03-4/title card, session.mp4"
+          - path: session,03-4/segment,1.mp4
+            raw:
+              card: 2
+              path: MVI_8827.MP4
+          - path: session,03-4/segment,2.mp4
+            raw:
+              card: 2
+              path: MVI_8828.MP4
+          - path: session,03-4/segment,3.mp4
+            raw:
+              card: 2
+              path: MVI_8829.MP4
+          - path: "common/title card, copyright.mp4"
+  4:
+    date: 2019-06-20
+    sessions:
+      1:
+        speaker: *myers_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,04-1/title card, session.mp4"
+          - path: session,04-1/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8830.MP4
+          - path: session,04-1/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8831.MP4
+            # remove "switch to slides" gap: 3m30s - 5m9s
+          - path: session,04-1/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8832.MP4
+          - path: "common/title card, copyright.mp4"
+      2:
+        speaker: *harper_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,04-2/title card, session.mp4"
+            # Remove first 18s and after 1m0s (mic switch)
+          - path: session,04-2/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8833.MP4
+            # Remove 2m0s-2m24s (audience interruption)
+          - path: session,04-2/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8834.MP4
+          - path: session,04-2/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8835.MP4
+          - path: session,04-2/segment,4.mp4
+            raw:
+              card: 3
+              path: MVI_8836.MP4
+          - path: session,04-2/segment,5.mp4
+            raw:
+              card: 3
+              path: MVI_8837.MP4
+          - path: "common/title card, copyright.mp4"
+      3:
+        speaker: *hoffmann_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,04-3/title card, session.mp4"
+          - path: session,04-3/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8844.MP4
+          - path: session,04-3/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8845.MP4
+          - path: session,04-3/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8846.MP4
+          - path: "common/title card, copyright.mp4"
+      4:
+        speaker: *silva_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,04-4/title card, session.mp4"
+          - path: session,04-4/segment,1.mp4
+            raw:
+              card: 2
+              path: MVI_8847.MP4
+          - path: session,04-4/segment,2.mp4
+            raw:
+              card: 2
+              path: MVI_8848.MP4
+            # remove 17h55s-end (projector pause)
+          - path: session,04-4/segment,3.mp4
+            raw:
+              card: 2
+              path: MVI_8849.MP4
+          - path: session,04-4/segment,4.mp4
+            raw:
+              card: 2
+              path: MVI_8850.MP4
+          - path: "common/title card, copyright.mp4"
+  5:
+    date: 2019-06-21
+    sessions:
+      1:
+        speaker: *hoffmann_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,05-1/title card, session.mp4"
+            # Zach operated camera ; no audio until 15m54s, then ambient mic ; lost focus at 28m45s
+          - path: session,05-1/segment,1.mp4
+            raw:
+              card: 2
+              path: MVI_8863.MP4
+          - path: session,05-1/segment,2.mp4
+            raw:
+              card: 2
+              path: MVI_8864.MP4
+            # remove first 2m53s
+          - path: session,05-1/segment,3.mp4
+            raw:
+              card: 2
+              path: MVI_8866.MP4
+          - path: session,05-1/segment,4.mp4
+            raw:
+              card: 2
+              path: MVI_8867.MP4
+          - path: "common/title card, copyright.mp4"
+      2:
+        speaker: *harper_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,05-2/title card, session.mp4"
+          - path: session,05-2/segment,1.mp4
+            raw:
+              card: 2
+              path: MVI_8868.MP4
+          - path: session,05-2/segment,2.mp4
+            raw:
+              card: 2
+              path: MVI_8869.MP4
+          - path: session,05-2/segment,3.mp4
+            raw:
+              card: 2
+              path: MVI_8870.MP4
+          - path: session,05-2/segment,4.mp4
+            raw:
+              card: 2
+              path: MVI_8871.MP4
+          - path: "common/title card, copyright.mp4"
+      3:
+        speaker: *hoffmann_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,05-3/title card, session.mp4"
+          - path: session,05-3/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8872.MP4
+          - path: session,05-3/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8873.MP4
+          - path: session,05-3/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8874.MP4
+            # Silent audio @ 3m37s
+          - path: session,05-3/segment,4.mp4
+            raw:
+              card: 3
+              path: MVI_8875.MP4
+          - path: "common/title card, copyright.mp4"
+      4:
+        speaker: *pfenning_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,05-4/title card, session.mp4"
+          - path: session,05-4/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8876.MP4
+          - path: session,05-4/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8877.MP4
+          - path: session,05-4/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8878.MP4
+          - path: "common/title card, copyright.mp4"
+  6:
+    date: 2019-06-22
+    sessions:
+      1:
+        speaker: *hoffmann_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,06-1/title card, session.mp4"
+          - path: session,06-1/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8879.MP4
+          - path: session,06-1/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8880.MP4
+          - path: session,06-1/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8881.MP4
+          - path: "common/title card, copyright.mp4"
+      2:
+        speaker: *harper_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,06-2/title card, session.mp4"
+          - path: session,06-1/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8879.MP4
+          - path: session,06-1/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8880.MP4
+          - path: session,06-1/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8881.MP4
+          - path: "common/title card, copyright.mp4"
+  7:
+    date: 2019-06-24
+    sessions:
+      1:
+        speaker: *ahmed_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,07-1/title card, session.mp4"
+          - path: session,07-1/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8888.MP4
+          - path: session,07-1/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8889.MP4
+          - path: session,07-1/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8890.MP4
+          - path: "common/title card, copyright.mp4"
+      2:
+        speaker: *gordon_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,07-2/title card, session.mp4"
+          - path: session,07-2/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8891.MP4
+          - path: session,07-2/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8892.MP4
+          - path: session,07-2/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8893.MP4
+          - path: session,07-2/segment,4.mp4
+            raw:
+              card: 3
+              path: MVI_8894.MP4
+          - path: "common/title card, copyright.mp4"
+      3:
+        speaker: *ahmed_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,07-3/title card, session.mp4"
+          - path: session,07-3/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8895.MP4
+          - path: session,07-3/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8897.MP4
+          - path: session,07-3/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8898.MP4
+          - path: session,07-3/segment,4.mp4
+            raw:
+              card: 3
+              path: MVI_8899.MP4
+          - path: session,07-3/segment,5.mp4
+            raw:
+              card: 3
+              path: MVI_8900.MP4
+          - path: "common/title card, copyright.mp4"
+  8:
+    date: 2019-06-25
+    sessions:
+      1:
+        speaker: *henglein_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,08-1/title card, session.mp4"
+          - path: session,08-1/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8901.MP4
+          - path: session,08-1/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8902.MP4
+          - path: session,08-1/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8903.MP4
+          - path: "common/title card, copyright.mp4"
+      2:
+        speaker: *ahmed_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,08-2/title card, session.mp4"
+          - path: session,08-2/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8904.MP4
+          - path: session,08-2/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8905.MP4
+          - path: session,08-2/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8906.MP4
+          - path: session,08-2/segment,4.mp4
+            raw:
+              card: 3
+              path: MVI_8907.MP4
+          - path: "common/title card, copyright.mp4"
+      3:
+        speaker: *gordon_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,08-3/title card, session.mp4"
+          - path: session,08-3/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8908.MP4
+          - path: session,08-3/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8909.MP4
+          - path: session,08-3/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8910.MP4
+          - path: "common/title card, copyright.mp4"
+      4:
+        speaker: *leino_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,08-4/title card, session.mp4"
+            # Remove first 1m5s
+          - path: session,08-4/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8911.MP4
+          - path: session,08-4/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8912.MP4
+          - path: session,08-4/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8913.MP4
+          - path: "common/title card, copyright.mp4"
+  9:
+    date: 2019-06-26
+    sessions:
+      1:
+        speaker: *ahmed_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,09-1/title card, session.mp4"
+          - path: session,09-1/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8914.MP4
+          - path: session,09-1/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8915.MP4
+          - path: session,09-1/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8916.MP4
+          - path: session,09-1/segment,4.mp4
+            raw:
+              card: 3
+              path: MVI_8917.MP4
+          - path: "common/title card, copyright.mp4"
+      2:
+        speaker: *swamy_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,09-2/title card, session.mp4"
+          - path: session,09-2/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8926.MP4
+          - path: session,09-2/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8927.MP4
+          - path: session,09-2/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8928.MP4
+          - path: "common/title card, copyright.mp4"
+      3:
+        speaker: *henglein_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,09-3/title card, session.mp4"
+          - path: session,09-3/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8929.MP4
+          - path: session,09-3/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8930.MP4
+          - path: session,09-3/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8931.MP4
+          - path: "common/title card, copyright.mp4"
+      4:
+        speaker: *gordon_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,09-4/title card, session.mp4"
+          - path: session,09-4/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8933.MP4
+          - path: session,09-4/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8934.MP4
+          - path: session,09-4/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8935.MP4
+          - path: session,09-4/segment,4.mp4
+            raw:
+              card: 3
+              path: MVI_8936.MP4
+          - path: "common/title card, copyright.mp4"
+  10:
+    date: 2019-06-27
+    sessions:
+      1:
+        speaker: *henglein_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,10-1/title card, session.mp4"
+          - path: session,10-1/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8937.MP4
+            # Remove first 30s
+          - path: session,10-1/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8938.MP4
+            # Remove first 6s
+          - path: session,10-1/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8939.MP4
+          - path: "common/title card, copyright.mp4"
+      2:
+        speaker: *staton_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,10-2/title card, session.mp4"
+          - path: session,10-2/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8940.MP4
+          - path: session,10-2/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8941.MP4
+          - path: session,10-2/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8942.MP4
+          - path: session,10-2/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8943.MP4
+          - path: "common/title card, copyright.mp4"
+      3:
+        speaker: *swamy_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,10-3/title card, session.mp4"
+          - path: session,10-3/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8944.MP4
+          - path: session,10-3/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8945.MP4
+          - path: session,10-3/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8946.MP4
+          - path: "common/title card, copyright.mp4"
+      4:
+        speaker: *henglein_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,10-4/title card, session.mp4"
+          - path: session,10-4/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8947.MP4
+          - path: session,10-4/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8948.MP4
+          - path: session,10-4/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8949.MP4
+          - path: session,10-4/segment,4.mp4
+            raw:
+              card: 3
+              path: MVI_8950.MP4
+          - path: "common/title card, copyright.mp4"
+  11:
+    date: 2019-06-28
+    sessions:
+      1:
+        speaker: *staton_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,11-j/title card, session.mp4"
+            # no audio for first 1m33s
+          - path: session,11-1/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8952.MP4
+          - path: session,11-1/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8953.MP4
+          - path: session,11-1/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8954.MP4
+          - path: session,11-1/segment,4.mp4
+            raw:
+              card: 3
+              path: MVI_8955.MP4
+          - path: "common/title card, copyright.mp4"
+      2:
+        speaker: *swamy_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,11-2/title card, session.mp4"
+            # Swamy 3 | card 3 | Jim operated
+            # no audio for first 14s
+          - path: session,11-2/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8956.MP4
+          - path: session,11-2/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8957.MP4
+          - path: session,11-2/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8958.MP4
+          - path: "common/title card, copyright.mp4"
+      3:
+        speaker: *staton_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,11-3/title card, session.mp4"
+          - path: session,11-3/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8959.MP4
+          - path: session,11-3/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8960.MP4
+            # interrupted Sam ; excise 54s - 1m46s
+          - path: session,11-3/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8961.MP4
+          - path: session,11-3/segment,4.mp4
+            raw:
+              card: 3
+              path: MVI_8962.MP4
+          - path: "common/title card, copyright.mp4"
+  12:
+    date: 2019-06-29
+    sessions:
+      1:
+        speaker: *swamy_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,12-1/title card, session.mp4"
+          - path: session,12-1/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8963.MP4
+          - path: session,12-1/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8964.MP4
+          - path: session,12-1/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8965.MP4
+          - path: "common/title card, copyright.mp4"
+      2:
+        speaker: *staton_fullname
+        videos:
+          - path: "common/title card, main.mp4"
+          - path: "session,12-2/title card, session.mp4"
+          - path: session,12-2/segment,1.mp4
+            raw:
+              card: 3
+              path: MVI_8966.MP4
+          - path: session,12-2/segment,2.mp4
+            raw:
+              card: 3
+              path: MVI_8967.MP4
+          - path: session,12-2/segment,3.mp4
+            raw:
+              card: 3
+              path: MVI_8968.MP4
+          - path: "common/title card, copyright.mp4"
+segments:
+  # Pfenning 1 | card 1
+  # Remove first 40s
+  MVI_8784.MP4: session,01-1/segment,1.mp4
+  # Remove last ~20s
+  MVI_8785.MP4: session,01-1/segment,2.mp4
+  # Remove first 4m8s
+  MVI_8786.MP4: session,01-1/segment,3.mp4
+  MVI_8787.MP4: session,01-1/segment,4.mp4
+  MVI_8788.MP4: session,01-1/segment,5.mp4
+  MVI_8789.MP4: session,01-1/segment,6.mp4
+  MVI_8790.MP4: session,01-1/segment,7.mp4
+  #
+  # Silva 1 | card 1
+  # Remove first 25s
+  MVI_8792.MP4: session,01-2/segment,1.mp4
+  MVI_8793.MP4: session,01-2/segment,2.mp4
+  MVI_8794.MP4: session,01-2/segment,3.mp4
+  MVI_8795.MP4: session,01-2/segment,4.mp4
+  MVI_8796.MP4: session,01-2/segment,5.mp4
+  MVI_8797.MP4: session,01-2/segment,6.mp4
+  #
+  # Pfenning 2 | card 1
+  MVI_8798.MP4: session,01-3/segment,1.mp4
+  MVI_8799.MP4: session,01-3/segment,2.mp4
+  MVI_8801.MP4: session,01-3/segment,3.mp4
+  #
+  # Silva 2 | card 1
+  MVI_8802.MP4: session,01-4/segment,1.mp4
+  MVI_8803.MP4: session,01-4/segment,2.mp4
+  MVI_8804.MP4: session,01-4/segment,3.mp4
+  MVI_8805.MP4: session,01-4/segment,4.mp4
+  # Myers 1 | card 1
+  - path: session,02-1/segment,1.mp4
+    raw:
+      card: 1
+      path: MVI_8806.MP4
+  - path: session,02-1/segment,2.mp4
+    raw:
+      card: 1
+      path: MVI_8807.MP4
+  - path: session,02-1/segment,3.mp4
+    raw:
+      card: 1
+      path: MVI_8808.MP4
+  # card 2
+  MVI_8809.MP4: session,02-1/segment,4.mp4
+  # Pfenning 3 | card 2
+  MVI_8810.MP4: session,02-2/segment,1.mp4
+  MVI_8811.MP4: session,02-2/segment,2.mp4
+  MVI_8812.MP4: session,02-2/segment,3.mp4
+  # Myers 2 | card 2
+  MVI_8813.MP4: session,02-3/segment,1.mp4
+  MVI_8814.MP4: session,02-3/segment,2.mp4
+  MVI_8815.MP4: session,02-3/segment,3.mp4
+  # Pfenning 4 | card 2
+  MVI_8816.MP4: session,03-1/segment,1.mp4
+  MVI_8817.MP4: session,03-1/segment,2.mp4
+  MVI_8818.MP4: session,03-1/segment,3.mp4
+  # Harper 1 | card 2
+  MVI_8819.MP4: session,03-2/segment,1.mp4
+  MVI_8820.MP4: session,03-2/segment,2.mp4
+  # remove first 23s
+  MVI_8821.MP4: session,03-2/segment,3.mp4
+  MVI_8822.MP4: session,03-2/segment,4.mp4
+  # Myers 3 | card 2
+  MVI_8823.MP4: session,03-3/segment,1.mp4
+  MVI_8824.MP4: session,03-3/segment,2.mp4
+  MVI_8825.MP4: session,03-3/segment,3.mp4
+  MVI_8826.MP4: session,03-3/segment,4.mp4
+  # Silva 3 | card 2
+  MVI_8827.MP4: session,03-4/segment,1.mp4
+  MVI_8828.MP4: session,03-4/segment,2.mp4
+  MVI_8829.MP4: session,03-4/segment,3.mp4
+  # Myers 4 | card 3
+  MVI_8830.MP4: session,04-1/segment,1.mp4
+  MVI_8831.MP4: session,04-1/segment,2.mp4
+  # remove "switch to slides" gap: 3m30s - 5m9s
+  MVI_8832.MP4: session,04-1/segment,3.mp4
+  # Harper 2 | card 3
+  # Remove first 18s and after 1m0s (mic switch)
+  MVI_8833.MP4: session,04-2/segment,1.mp4
+  # Remove 2m0s-2m24s (audience interruption)
+  MVI_8834.MP4: session,04-2/segment,2.mp4
+  MVI_8835.MP4: session,04-2/segment,3.mp4
+  MVI_8836.MP4: session,04-2/segment,4.mp4
+  MVI_8837.MP4: session,04-2/segment,5.mp4
+  # Hoffmann 1 | card 3
+  MVI_8844.MP4: session,04-3/segment,1.mp4
+  MVI_8845.MP4: session,04-3/segment,2.mp4
+  MVI_8846.MP4: session,04-3/segment,3.mp4
+  # Silva 4 | card 3
+  MVI_8847.MP4: session,04-4/segment,1.mp4
+  MVI_8848.MP4: session,04-4/segment,2.mp4
+  # remove 17h55s-end (projector pause)
+  MVI_8849.MP4: session,04-4/segment,3.mp4
+  MVI_8850.MP4: session,04-4/segment,4.mp4
+  # Hoffmann 2 | card 2
+  # Zach operated camera ; no audio until 15m54s, then ambient mic ; lost focus at 28m45s
+  MVI_8863.MP4: session,05-1/segment,1.mp4
+  MVI_8864.MP4: session,05-1/segment,2.mp4
+  # remove first 2m53s
+  MVI_8866.MP4: session,05-1/segment,3.mp4
+  MVI_8867.MP4: session,05-1/segment,4.mp4
+  # Harper 3 (Zach recorded) | card 2
+  MVI_8851.MP4: session,05-2/segment,?.mp4
+  MVI_8868.MP4: session,05-2/segment,1.mp4
+  MVI_8869.MP4: session,05-2/segment,2.mp4
+  MVI_8870.MP4: session,05-2/segment,3.mp4
+  MVI_8871.MP4: session,05-2/segment,4.mp4
+  # Hoffmann 3 | card 3
+  MVI_8872.MP4: session,05-3/segment,1.mp4
+  MVI_8873.MP4: session,05-3/segment,2.mp4
+  MVI_8874.MP4: session,05-3/segment,3.mp4
+  # Silent audio @ 3m37s
+  MVI_8875.MP4: session,05-3/segment,4.mp4
+  # Pfenning demo | card 3
+  MVI_8876.MP4: session,05-4/segment,1.mp4
+  MVI_8877.MP4: session,05-4/segment,2.mp4
+  MVI_8878.MP4: session,05-4/segment,3.mp4
+  # Hoffmann 4 | card 3
+  MVI_8879.MP4: session,06-1/segment,1.mp4
+  MVI_8880.MP4: session,06-1/segment,2.mp4
+  MVI_8881.MP4: session,06-1/segment,3.mp4
+  # Harper 4 | card 3
+  MVI_8883.MP4: session,06-2/segment,1.mp4
+  MVI_8884.MP4: session,06-2/segment,2.mp4
+  MVI_8885.MP4: session,06-2/segment,3.mp4
+  MVI_8886.MP4: session,06-2/segment,4.mp4
+  # Ahmed 1 | card 3
+  MVI_8888.MP4: session,07-1/segment,1.mp4
+  MVI_8889.MP4: session,07-1/segment,2.mp4
+  MVI_8890.MP4: session,07-1/segment,3.mp4
+  # Gordon 1 | card 3
+  MVI_8891.MP4: session,07-2/segment,1.mp4
+  MVI_8892.MP4: session,07-2/segment,2.mp4
+  MVI_8893.MP4: session,07-2/segment,3.mp4
+  MVI_8894.MP4: session,07-2/segment,4.mp4
+  # Ahmed 2 | card 3
+  # Remove 6m27s until end (pen color issue)
+  MVI_8895.MP4: session,07-3/segment,1.mp4
+  MVI_8897.MP4: session,07-3/segment,2.mp4
+  MVI_8898.MP4: session,07-3/segment,3.mp4
+  MVI_8899.MP4: session,07-3/segment,4.mp4
+  MVI_8900.MP4: session,07-3/segment,5.mp4
+  # Henglein 1 | card 3
+  MVI_8901.MP4: session,08-1/segment,1.mp4
+  MVI_8902.MP4: session,08-1/segment,2.mp4
+  MVI_8903.MP4: session,08-1/segment,3.mp4
+  # Ahmed 3 | card 3
+  MVI_8904.MP4: session,08-2/segment,1.mp4
+  MVI_8905.MP4: session,08-2/segment,2.mp4
+  MVI_8906.MP4: session,08-2/segment,3.mp4
+  MVI_8907.MP4: session,08-2/segment,4.mp4
+  # Gordon 2 | card 3
+  MVI_8908.MP4: session,08-3/segment,1.mp4
+  MVI_8909.MP4: session,08-3/segment,2.mp4
+  MVI_8910.MP4: session,08-3/segment,3.mp4
+  # Leino | card 3
+  # Remove first 1m5s
+  MVI_8911.MP4: session,08-4/segment,1.mp4
+  MVI_8912.MP4: session,08-4/segment,2.mp4
+  MVI_8913.MP4: session,08-4/segment,3.mp4
+  # Ahmed 4 | card 3
+  MVI_8914.MP4: session,09-1/segment,1.mp4
+  MVI_8915.MP4: session,09-1/segment,2.mp4
+  MVI_8916.MP4: session,09-1/segment,3.mp4
+  MVI_8917.MP4: session,09-1/segment,4.mp4
+  # Swamy 1 | card 3
+  MVI_8926.MP4: session,09-2/segment,1.mp4
+  MVI_8927.MP4: session,09-2/segment,2.mp4
+  MVI_8928.MP4: session,09-2/segment,3.mp4
+  # Henglein 2 | card 3
+  MVI_8929.MP4: session,09-3/segment,1.mp4
+  MVI_8930.MP4: session,09-3/segment,2.mp4
+  MVI_8931.MP4: session,09-3/segment,3.mp4
+  # Gordon 3 | card 3
+  MVI_8933.MP4: session,09-4/segment,1.mp4
+  MVI_8934.MP4: session,09-4/segment,2.mp4
+  MVI_8935.MP4: session,09-4/segment,3.mp4
+  MVI_8936.MP4: session,09-4/segment,4.mp4
+  # Henglein 3 | card 3
+  MVI_8937.MP4: session,10-1/segment,1.mp4
+  # Remove first 30s
+  MVI_8938.MP4: session,10-1/segment,2.mp4
+  # Remove first 6s
+  MVI_8939.MP4: session,10-1/segment,3.mp4
+  # Staton 1 | card 3
+  MVI_8940.MP4: session,10-2/segment,1.mp4
+  MVI_8941.MP4: session,10-2/segment,2.mp4
+  MVI_8942.MP4: session,10-2/segment,3.mp4
+  MVI_8943.MP4: session,10-2/segment,3.mp4
+  # Swamy 2 | card 3
+  MVI_8944.MP4: session,10-3/segment,1.mp4
+  MVI_8945.MP4: session,10-3/segment,2.mp4
+  MVI_8946.MP4: session,10-3/segment,3.mp4
+  # Henglein 4 | card 3
+  MVI_8947.MP4: session,10-4/segment,1.mp4
+  MVI_8948.MP4: session,10-4/segment,2.mp4
+  MVI_8949.MP4: session,10-4/segment,3.mp4
+  MVI_8950.MP4: session,10-4/segment,4.mp4
+  # Staton 2 | card 3 | Jim operated
+  # no audio for first 1m33s
+  MVI_8952.MP4: session,11-1/segment,1.mp4
+  MVI_8953.MP4: session,11-1/segment,2.mp4
+  MVI_8954.MP4: session,11-1/segment,3.mp4
+  MVI_8955.MP4: session,11-1/segment,4.mp4
+  # Swamy 3 | card 3 | Jim operated
+  # no audio for first 14s
+  MVI_8956.MP4: session,11-2/segment,1.mp4
+  MVI_8957.MP4: session,11-2/segment,2.mp4
+  MVI_8958.MP4: session,11-2/segment,3.mp4
+  # Staton 3 | card 3
+  MVI_8959.MP4: session,11-3/segment,3.mp4
+  MVI_8960.MP4: session,11-3/segment,3.mp4
+  # interrupted Sam ; excise 54s - 1m46s
+  MVI_8961.MP4: session,11-3/segment,3.mp4
+  MVI_8962.MP4: session,11-3/segment,4.mp4
+  # Swamy 4 | card 3
+  MVI_8963.MP4: session,12-1/segment,1.mp4
+  MVI_8964.MP4: session,12-1/segment,2.mp4
+  MVI_8965.MP4: session,12-1/segment,3.mp4
+  # Staton 4 | card 3
+  MVI_8966.MP4: session,12-2/segment,1.mp4
+  MVI_8967.MP4: session,12-2/segment,2.mp4
+  MVI_8968.MP4: session,12-2/segment,3.mp4
+  #

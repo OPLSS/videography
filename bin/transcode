@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'oplss/videography/configuration'
+require 'oplss/videography/transcode'
+
+inventory = OPLSS::Videography::Inventory.new
+inventory.from_file(ARGV.first)
+OPLSS::Videography::transcode(inventory)
