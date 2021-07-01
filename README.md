@@ -1,9 +1,51 @@
-# OPLSS Videography
+# OPLSS 2021 Videography
 
 This document describes the equipment and procedures we use to record
 the [Oregon Programming Languages Summer
 School](https://www.cs.uoregon.edu/research/summerschool/) sessions
 and publish the recordings.
+
+## Special Circumstances
+
+Due to the pandemic, OPLSS occurred entirely by Zoom video
+conference. Thus, we recorded all of the presentations within Zoom.
+
+## Tools
+
+I used these tools:
+
+  * Kdenlive for producing the titles and rendering the final videos
+  * VidCutter to extract each session from Zoom's raw videos
+
+## Processing
+
+### Acquire raw video
+
+Download raw videos from oregon.zoom.us. Jim provided the URLs.
+
+Use VidCutter to extract each session from the raw videos.
+
+Organize the videos by date and speaker.
+
+### Acquire imagery
+
+Find a royalty-free image as a background for the titles. I chose
+[...](...).
+
+### Acquire music
+
+Find royalty-free music to play beneath the prologue and epilogue
+videos. I chose []() for the prologue and []() for the epilogue.
+
+### Create prologue video
+
+/pending/
+
+### Create epilogue video
+
+/pending/
+
+## EVERYTHING AFTER THIS HEADING PERTAINS TO 2019
 
 ## A/V Personnel
 
